@@ -1,0 +1,17 @@
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\bin\Debug\net8.0\MercService.Business.deps.json
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\bin\Debug\net8.0\MercService.Business.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\bin\Debug\net8.0\MercService.Business.pdb
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\bin\Debug\net8.0\MercService.Core.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\bin\Debug\net8.0\MercService.DAL.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\bin\Debug\net8.0\MercService.Core.pdb
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\bin\Debug\net8.0\MercService.DAL.pdb
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\obj\Debug\net8.0\MercService.Business.csproj.AssemblyReference.cache
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\obj\Debug\net8.0\MercService.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\obj\Debug\net8.0\MercService.Business.AssemblyInfoInputs.cache
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\obj\Debug\net8.0\MercService.Business.AssemblyInfo.cs
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\obj\Debug\net8.0\MercService.Business.csproj.CoreCompileInputs.cache
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\obj\Debug\net8.0\MercServ.C514C54E.Up2Date
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\obj\Debug\net8.0\MercService.Business.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\obj\Debug\net8.0\refint\MercService.Business.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\obj\Debug\net8.0\MercService.Business.pdb
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.Business\obj\Debug\net8.0\ref\MercService.Business.dll

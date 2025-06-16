@@ -1,0 +1,163 @@
+﻿@model MercService.Core.ViewModels.LoginVM
+@{
+    ViewData["Title"] = "Daxil ol";
+    Layout = null; // Əgər layout istifadə etmirsənsə
+}
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <link rel="icon" type="image/png" href="~/icon/merclogo.jpg" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes Login</title>
+    <link rel="stylesheet" href="~/assets/css/Login.css" />
+    <style>
+        .container {
+            display: flex;
+            max-width: 900px;
+            margin: 50px auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-box {
+            flex: 1;
+            padding: 40px;
+            background-color: #f8f8f8;
+        }
+
+        .login-box h2 {
+            margin-bottom: 20px;
+        }
+
+        .login-box form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .image-box {
+            flex: 1;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        /* Custom checkbox stili */
+        .custom-checkbox {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            font-size: 14px;
+            gap: 8px;
+            position: relative;
+            user-select: none;
+        }
+
+        .custom-checkbox input[type="checkbox"] {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            position: absolute;
+        }
+
+        .custom-checkbox .checkmark {
+            width: 18px;
+            height: 18px;
+            background-color: white;
+            border: 2px solid #666;
+            border-radius: 4px;
+            display: inline-block;
+            position: relative;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .custom-checkbox input[type="checkbox"]:checked + .checkmark {
+            background-color: #ff5722; /* istədiyin rəngi BURADA dəyiş */
+            border-color: #ff5722;
+        }
+
+        .custom-checkbox .checkmark::after {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 5px;
+            top: 1px;
+            width: 4px;
+            height: 9px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+        }
+
+        .custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Daxil ol</h2>
+
+            <form asp-action="Login" asp-controller="Account" method="post">
+                <label asp-for="UsernameOrEmail">Email və ya İstifadəçi adı</label>
+                <input asp-for="UsernameOrEmail" placeholder="Email və ya istifadəçi adı" />
+                <span asp-validation-for="UsernameOrEmail" class="text-danger"></span>
+
+                <label asp-for="Password">Şifrə</label>
+                <input asp-for="Password" placeholder="Şifrənizi daxil edin" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+
+                <div class="remember-forgot">
+                    <label class="custom-checkbox">
+                        <input asp-for="RememberMe" />
+                        <span class="checkmark"></span>
+                        Yadda saxla
+                    </label>
+                    <a asp-controller="Account" asp-action="ForgotPassword">Şifrəni unutdun?</a>
+
+                </div>
+
+                <button type="submit">Daxil ol</button>
+
+                <p>Hesabınız yoxdur? <a asp-action="Register" asp-controller="Account">Qeydiyyatdan keç</a></p>
+            </form>
+        </div>
+
+        <div class="image-box">
+            <img src="~/assets/img/merc1.jpg" alt="Mercedes">
+        </div>
+    </div>
+
+    @section Scripts {
+            <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>

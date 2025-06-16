@@ -1,0 +1,70 @@
+﻿@model MercService.Core.ViewModels.SearchViewModel
+
+
+<h2>Problem Axtar</h2>
+
+    <form id="searchForm" method="post" asp-controller="Search" asp-action="Index">
+    <div class="form-group">
+        <label>Marka</label>
+        <select asp-for="SelectedCategoryId" asp-items="@(new SelectList(Model.Categories, "Id", "Name"))"
+                class="form-control" onchange="this.form.submit()">
+            <option disabled selected>Seçin</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Model</label>
+        <select asp-for="SelectedModelId" asp-items="@(new SelectList(Model.Models, "Id", "Name"))" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label>İl</label>
+        <select asp-for="SelectedYear" class="form-control">
+            <option value="" disabled selected>İl seçin</option>
+            @foreach (var year in Model.Years)
+            {
+                if (Model.SelectedYear?.ToString() == year.Value)
+                {
+                    <option value="@year.Value" selected>@year.Text</option>
+                }
+                else
+                {
+                    <option value="@year.Value">@year.Text</option>
+                }
+            }
+        </select>
+
+
+
+
+    </div>
+
+    <div class="form-group">
+        <label>Problem</label>
+        <select asp-for="SelectedProblemId" asp-items="@(new SelectList(Model.Problems, "Id", "Title"))" class="form-control"></select>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Axtar</button>
+</form>
+
+@if (Model.Mechanics != null && Model.Mechanics.Any())
+{
+    <h3>Bu problemi həll edən ustalar:</h3>
+    <ul>
+        @foreach (var mechanic in Model.Mechanics)
+        {
+            <li>@mechanic.FullName - @mechanic.Designation</li>
+        }
+    </ul>
+}
+
+@if (Model.Comments != null && Model.Comments.Any())
+{
+    <h3>Bu problemlə bağlı istifadəçi rəyləri:</h3>
+    <ul>
+        @foreach (var comment in Model.Comments)
+        {
+            <li>@comment.Text (@comment.CreatedAt.ToShortDateString())</li>
+        }
+    </ul>
+}

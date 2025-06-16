@@ -1,0 +1,270 @@
+﻿@using MercService.Core.ViewModels
+@model MechanicVM
+
+@{
+    ViewData["Title"] = "Yeni Usta Əlavə Et";
+    Layout = null;
+
+}
+<link rel="icon" type="image/png" href="~/icon/merclogo.jpg" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+<style>
+    body {
+        margin: 0;
+        padding: 10px;
+        background: linear-gradient(135deg, #2b0202, #140b02);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .form-wrapper {
+        max-width: 500px;
+        width: 100%;
+        padding: 20px;
+        z-index: 999;
+    }
+
+    .glass-form {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        border-radius: 16px;
+        padding: 30px;
+        box-shadow: 0 18px 32px rgba(0, 0, 0, 0.3);
+        color: white;
+    }
+
+    .form-title {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .form-group {
+        margin-bottom: 16px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    .form-control {
+        width: 100%;
+        height: 34px;
+        border: none;
+        border-radius: 8px;
+        background: rgba(190, 194, 209, 0.15);
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
+
+        .form-control:focus {
+            outline: none;
+            background: rgba(0, 0, 0, 0.25);
+        }
+
+    .btn-submit {
+        width: 100%;
+        background-color: #ffffff;
+        color: #020000;
+        border: none;
+        padding: 12px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .custom-file-input-wrapper {
+        position: relative;
+        width: 100%;
+        height: 45px;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #474646;
+        border: 1px solid #444;
+        margin-bottom: 15px;
+    }
+
+    .custom-file-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        color: white;
+        background-color: #3a0808;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .custom-file-input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+
+    .btn-submit:hover {
+        background-color: #1b0904;
+        color: #ffffff;
+    }
+
+    .btn-back {
+        display: inline-block;
+        background-color: transparent;
+        color: white;
+        padding: 7px 16px;
+        border: 2px solid white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+        .btn-back:hover {
+            background-color: white;
+            color: #3d0404;
+        }
+
+
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .upload-icon {
+        color: white;
+        font-size: 16px;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    #preview {
+        display: none;
+        max-width: 100%;
+        max-height: 200px;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+</style>
+
+<div class="form-wrapper">
+    <a asp-action="Index" class="btn-back">← Geri Qayıt</a>
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data" class="glass-form">
+        @Html.AntiForgeryToken()
+        <h2 class="form-title">Mütəxəssis əlavə edin</h2>
+
+        <div class="form-group">
+            <label asp-for="FullName"></label>
+            <input asp-for="FullName" class="form-control" oninput="capitalizeEachWord(this)" placeholder="Ad və Soyad daxil edin" />
+            <span asp-validation-for="FullName" class="text-danger small"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Designation"></label>
+            <input asp-for="Designation" class="form-control" oninput="capitalizeEachWord(this)" placeholder="Məsələn: Mühərrik ustası" />
+            <span asp-validation-for="Designation" class="text-danger small"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ExperienceYear"></label>
+            <input asp-for="ExperienceYear" class="form-control" type="number" min="0" max="70" step="0.1" placeholder="Məsələn: 4" />
+            <span asp-validation-for="ExperienceYear" class="text-danger small"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="FacebookUrl"></label>
+            <input asp-for="FacebookUrl" class="form-control" oninput="toLowerCaseInput(this)" placeholder="Facebook link" />
+            <span asp-validation-for="FacebookUrl" class="text-danger small"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="TwitterUrl"></label>
+            <input asp-for="TwitterUrl" class="form-control" oninput="toLowerCaseInput(this)" placeholder="Twitter link" />
+            <span asp-validation-for="TwitterUrl" class="text-danger small"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="InstagramUrl"></label>
+            <input asp-for="InstagramUrl" class="form-control" oninput="toLowerCaseInput(this)" placeholder="Instagram link" />
+            <span asp-validation-for="InstagramUrl" class="text-danger small"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="File">Şəkil Yüklə</label>
+            <div class="custom-file-input-wrapper">
+                <label for="fileUpload" class="custom-file-label">
+                    <span class="file-label-text">Fayl seçin</span>
+                    <i class="fas fa-download upload-icon"></i>
+                </label>
+                <input asp-for="File" id="fileUpload" class="custom-file-input" type="file" accept="image/*" onchange="previewImage(event)" />
+            </div>
+            <span asp-validation-for="File" class="text-danger small"></span>
+        </div>
+
+        <img id="preview" alt="Şəkil önizləmə" />
+
+        <button type="submit" class="btn-submit">Yadda Saxla</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+
+             
+        
+        function previewImage(event) {
+            const reader = new FileReader();
+            reader.onload = function () {
+                const preview = document.getElementById('preview');
+                preview.src = reader.result;
+                preview.style.display = 'block';
+            }
+            if (event.target.files[0]) {
+                reader.readAsDataURL(event.target.files[0]);
+            }
+        }
+
+                function toLowerCaseInput(input) {
+            input.value = input.value.toLowerCase();
+        }
+
+
+                   function capitalizeEachWord(input) {
+            let words = input.value.toLowerCase().split(" ");
+            for (let i = 0; i < words.length; i++) {
+                if (words[i].length > 0)
+                    words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+            }
+            input.value = words.join(" ");
+        }
+
+
+
+
+    </script>
+
+   
+   
+}

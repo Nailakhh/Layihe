@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "LookupController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Lookup/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupController",
+    "Method": "GetModels",
+    "RelativePath": "api/Lookup/models",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupController",
+    "Method": "GetProblems",
+    "RelativePath": "api/Lookup/problems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupController",
+    "Method": "GetSubModels",
+    "RelativePath": "api/Lookup/submodels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupController",
+    "Method": "GetYears",
+    "RelativePath": "api/Lookup/years",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

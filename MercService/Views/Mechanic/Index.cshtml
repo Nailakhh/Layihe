@@ -1,0 +1,165 @@
+﻿@model MercService.Core.ViewModels.MechanicVM
+
+@{
+    ViewData["Title"] = "Bütün Mütəxəssislər";
+}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+<style>
+    .search-input-wrapper {
+        position: relative;
+    }
+
+    .search-clear-btn {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background: transparent;
+        font-size: 18px;
+        cursor: pointer;
+        color: #aaa;
+        display: none;
+        padding: 0;
+        line-height: 1;
+        user-select: none;
+    }
+
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        max-width: 100%;
+        margin-top: 20px;
+        cursor: pointer;
+        color: black;
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: inherit;
+        }
+</style>
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Mütəxəssislər</h2>
+
+    <div class="row justify-content-center mb-4">
+        <form asp-action="Index" method="get" class="d-flex col-md-6" onsubmit="return false;">
+            <div class="search-input-wrapper w-100 position-relative">
+                <input type="text" id="searchTerm" name="searchTerm" class="form-control pe-4" placeholder="Axtar..." value="@Model.SearchTerm" autocomplete="off" />
+                <button type="button" id="clearSearch" class="search-clear-btn" aria-label="Clear search">&times;</button>
+            </div>
+            <button type="submit" id="searchBtn" class="btn btn-primary ms-2">Axtar</button>
+        </form>
+    </div>
+
+    <div class="row" id="mechanicsList">
+        @if (Model.Mechanics != null && Model.Mechanics.Any())
+        {
+            foreach (var mechanic in Model.Mechanics)
+            {
+                <div class="col-md-4 mb-4">
+                    <a asp-controller="Mechanic" asp-action="Detail" asp-route-id="@mechanic.Id">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="~/upload/mechanic/@mechanic.ImageUrl" class="card-img-top" style="height: 250px; object-fit: cover;" alt="@mechanic.FullName" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title">@mechanic.FullName</h5>
+                                <p class="card-text text-muted">@mechanic.Designation</p>
+                                <div class="d-flex justify-content-center">
+                                    @if (!string.IsNullOrWhiteSpace(mechanic.FacebookUrl))
+                                    {
+                                        <a href="@mechanic.FacebookUrl" target="_blank" class="me-3"><i class="fab fa-facebook"></i></a>
+                                    }
+                                    @if (!string.IsNullOrWhiteSpace(mechanic.TwitterUrl))
+                                    {
+                                        <a href="@mechanic.TwitterUrl" target="_blank" class="me-3"><i class="fab fa-twitter"></i></a>
+                                    }
+                                    @if (!string.IsNullOrWhiteSpace(mechanic.InstagramUrl))
+                                    {
+                                        <a href="@mechanic.InstagramUrl" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-center">Heç bir usta tapılmadı.</p>
+        }
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function () {
+        let typingTimer;
+        const doneTypingInterval = 300;
+        const $input = $('#searchTerm');
+        const $mechanicsList = $('#mechanicsList');
+        const $clearBtn = $('#clearSearch');
+
+        function toggleClearBtn() {
+            if ($input.val().length > 0) {
+                $clearBtn.show();
+            } else {
+                $clearBtn.hide();
+            }
+        }
+
+        toggleClearBtn();
+
+        $input.on('keyup', function () {
+            clearTimeout(typingTimer);
+            toggleClearBtn();
+
+            const query = $(this).val();
+            typingTimer = setTimeout(function () {
+                performSearch(query);
+            }, doneTypingInterval);
+        });
+
+   
+        $('#searchBtn').on('click', function () {
+            performSearch($input.val());
+        });
+
+     
+        $clearBtn.on('click', function () {
+            $input.val('');
+            toggleClearBtn();
+            performSearch(''); 
+        });
+
+        function performSearch(query) {
+            $.ajax({
+                url: '@Url.Action("Search", "Mechanic")',
+                type: 'GET',
+                data: { searchTerm: query },
+                success: function (result) {
+                    $mechanicsList.html(result);
+                },
+                error: function () {
+                    $mechanicsList.html('<p class="text-center text-danger">Axtarış zamanı xəta baş verdi.</p>');
+                }
+            });
+        }
+    });
+</script>

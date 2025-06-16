@@ -1,0 +1,15 @@
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\bin\Debug\net8.0\MercService.DAL.deps.json
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\bin\Debug\net8.0\MercService.DAL.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\bin\Debug\net8.0\MercService.DAL.pdb
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\bin\Debug\net8.0\MercService.Core.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\bin\Debug\net8.0\MercService.Core.pdb
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\MercService.DAL.csproj.AssemblyReference.cache
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\MercService.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\MercService.DAL.AssemblyInfoInputs.cache
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\MercService.DAL.AssemblyInfo.cs
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\MercService.DAL.csproj.CoreCompileInputs.cache
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\MercServ.68660D9F.Up2Date
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\MercService.DAL.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\refint\MercService.DAL.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\MercService.DAL.pdb
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\ref\MercService.DAL.dll

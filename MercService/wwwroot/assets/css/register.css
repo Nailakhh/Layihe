@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #320202;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.744);
+    width: 900px;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.login-box {
+    flex: 1;
+    padding: 40px;
+    background-color: #dcdcdc;
+    color: #690606;
+}
+
+.login-box h2 {
+    margin-bottom: 30px;
+    color: #1e051a;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #190323;
+}
+.remember-me input[type="checkbox"]:checked {
+    background-color: #340202; /* Daxili mavi rəng */
+    color: #3d0606;
+}
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    gap: 8px;
+    position: relative;
+    user-select: none;
+}
+
+/* Orijinal checkbox-u gizlə */
+.custom-checkbox input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+/* Öz checkbox görünüşümüz */
+.custom-checkbox .checkmark {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: 2px solid #888;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Checked olanda öz rəngimizlə dolsun */
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+    background-color: #4caf50; /* ✅ Rəngi BURADA dəyiş – məsələn #f44336 qırmızı üçün */
+    border-color: #4caf50;
+}
+
+/* Check işarəsi */
+.custom-checkbox .checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 5px;
+    top: 1px;
+    width: 4px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* Checked olanda check işarəsini göstər */
+.custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
+    display: block;
+}
+
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #ececec;
+    border: 1px solid #d2d2d2;
+    color: #18021c;;
+    border-radius: 6px;
+ 
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 1;
+      white-space: nowrap; /* Mətni bir sətrə salır */
+}
+
+.remember-me input[type="checkbox"] {
+    margin: 0;
+    vertical-align: middle;
+    transform: translateY(-1px); /* İncə tənzimləmə üçün */
+}
+
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #310202;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+      margin-top: 40px;
+}
+
+.login-box p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-box a {
+    color: #330c53;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image-box {
+    flex: 1;
+    background-color:#320202;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.image-box img {
+    width: 100%;
+ 
+   
+}
+
+
+.login-box button:active {
+    transform: scale(0.98);
+}
+.login-box button:hover {
+    background-color: #5c0202;
+    box-shadow: 0 0 10px #290606;
+    transition: 0.3s;
+}
+.login-box input:focus {
+    outline: none;
+    border-color: #240000;
+    box-shadow: 0 0 5px #2b0505;
+    transition: 0.3s;
+}

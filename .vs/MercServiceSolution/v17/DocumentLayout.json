@@ -1,0 +1,1530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\views\\mechanic\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\views\\mechanic\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\viewmodels\\mechanicdetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\viewmodels\\mechanicdetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\views\\mechanic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\views\\mechanic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\wwwroot\\assets\\css\\detail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\wwwroot\\assets\\css\\detail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\implementations\\mechanicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\implementations\\mechanicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\interfaces\\imechanicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\interfaces\\imechanicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\abstracts\\imechanicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\abstracts\\imechanicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\concretes\\mechanicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\concretes\\mechanicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\controllers\\mechaniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\controllers\\mechaniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\migrations\\20250616014810_column.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\migrations\\20250616014810_column.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\models\\commentlikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\models\\commentlikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\mercservice.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\mercservice.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\mercservice.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\mercservice.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\concretes\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\concretes\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\abstracts\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\abstracts\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\models\\usercomments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\models\\usercomments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\viewmodels\\commentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\viewmodels\\commentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\models\\submodelproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\models\\submodelproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\viewmodels\\mechanicvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\viewmodels\\mechanicvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\models\\mechanic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\models\\mechanic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\viewmodels\\replyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\viewmodels\\replyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\areas\\admin\\views\\mechanic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\areas\\admin\\views\\mechanic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\areas\\admin\\views\\mechanic\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\areas\\admin\\views\\mechanic\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\areas\\admin\\views\\mechanic\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\areas\\admin\\views\\mechanic\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\migrations\\20250615192348_usta2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\migrations\\20250615192348_usta2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\areas\\admin\\controllers\\mechaniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\areas\\admin\\controllers\\mechaniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\validationattributes\\lowercaseonlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\validationattributes\\lowercaseonlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\migrations\\20250615180608_usta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\migrations\\20250615180608_usta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\views\\mechanic\\_mechanicslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\views\\mechanic\\_mechanicslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\implementations\\submodelproblemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\implementations\\submodelproblemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\controllers\\lookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\controllers\\lookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\viewmodels\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\viewmodels\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\controllers\\carproblemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\controllers\\carproblemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\viewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\viewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250611181003_yeni2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MercService.DAL\\Migrations\\20250611181003_yeni2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\concretes\\submodelproblemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\concretes\\submodelproblemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\concretes\\carproblemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\concretes\\carproblemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\models\\carproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\models\\carproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\models\\submodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\models\\submodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\interfaces\\isubmodelproblemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\interfaces\\isubmodelproblemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\implementations\\submodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\implementations\\submodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\interfaces\\isubmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\interfaces\\isubmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\abstracts\\isubmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\abstracts\\isubmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\concretes\\submodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\concretes\\submodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\viewmodels\\submodelproblemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\viewmodels\\submodelproblemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E92F5F-2867-4607-AE7B-924AD713CC23}|MercService.Core\\MercService.Core.csproj|solutionrelative:mercservice.core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250611143154_elave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MercService.DAL\\Migrations\\20250611143154_elave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\interfaces\\iusercommentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\interfaces\\iusercommentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\interfaces\\imodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\interfaces\\imodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\interfaces\\icarproblemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\interfaces\\icarproblemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\implementations\\carproblemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\implementations\\carproblemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\abstracts\\icarproblemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\abstracts\\icarproblemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\implementations\\usercommentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\implementations\\usercommentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\concretes\\usercommentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\concretes\\usercommentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\abstracts\\iusercommentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\abstracts\\iusercommentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\abstracts\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\abstracts\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\concretes\\modelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\concretes\\modelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\abstracts\\imodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\abstracts\\imodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\implementations\\modelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\implementations\\modelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\repositories\\concretes\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\repositories\\concretes\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.business\\mercservice.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C0DFE996-32EC-4445-9BAB-0BFB6B77943A}|MercService.Business\\MercService.Business.csproj|solutionrelative:mercservice.business\\mercservice.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B9280D0-69A7-4946-BD6A-32D941FCB5A3}|MercService\\MercService.csproj|solutionrelative:mercservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\migrations\\20250614045418_cedvel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\migrations\\20250614045418_cedvel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|c:\\users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\mercservicesloution\\mercservice.dal\\migrations\\20250614044805_cedvel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7B8801-57DB-4575-AFC4-02397F1871F5}|MercService.DAL\\MercService.DAL.csproj|solutionrelative:mercservice.dal\\migrations\\20250614044805_cedvel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\wwwroot\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "MercService\\wwwroot\\assets\\css\\style.css",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\wwwroot\\assets\\css\\style.css",
+              "RelativeToolTip": "MercService\\wwwroot\\assets\\css\\style.css",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAuwLMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-10T20:07:55.044Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "detail.css",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\wwwroot\\assets\\css\\detail.css",
+              "RelativeDocumentMoniker": "MercService\\wwwroot\\assets\\css\\detail.css",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\wwwroot\\assets\\css\\detail.css",
+              "RelativeToolTip": "MercService\\wwwroot\\assets\\css\\detail.css",
+              "ViewState": "AgIAANwAAAAAAAAAAAAcwPsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-16T02:16:24.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\CommentService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Implementations\\CommentService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\CommentService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Implementations\\CommentService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T00:24:24.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MercService\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T19:30:42.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Mechanic\\Detail.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Views\\Mechanic\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Mechanic\\Detail.cshtml",
+              "RelativeToolTip": "MercService\\Views\\Mechanic\\Detail.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAIgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T22:47:23.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "MercService\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T03:39:08.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Mechanic\\Index.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Views\\Mechanic\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Mechanic\\Index.cshtml",
+              "RelativeToolTip": "MercService\\Views\\Mechanic\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T04:09:18.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MechanicDetailVM.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\MechanicDetailVM.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\ViewModels\\MechanicDetailVM.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\MechanicDetailVM.cs",
+              "RelativeToolTip": "MercService.Core\\ViewModels\\MechanicDetailVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T23:04:09.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MechanicService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\MechanicService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Implementations\\MechanicService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\MechanicService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Implementations\\MechanicService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:44:59.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMechanicService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\IMechanicService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Interfaces\\IMechanicService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\IMechanicService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Interfaces\\IMechanicService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:44:22.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IMechanicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\IMechanicRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Abstracts\\IMechanicRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\IMechanicRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Abstracts\\IMechanicRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:41:42.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MechanicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\MechanicRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Concretes\\MechanicRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\MechanicRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Concretes\\MechanicRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:42:31.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MechanicController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\MechanicController.cs",
+              "RelativeDocumentMoniker": "MercService\\Controllers\\MechanicController.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\MechanicController.cs",
+              "RelativeToolTip": "MercService\\Controllers\\MechanicController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwEoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T06:18:46.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250616014810_column.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250616014810_column.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Migrations\\20250616014810_column.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250616014810_column.cs",
+              "RelativeToolTip": "MercService.DAL\\Migrations\\20250616014810_column.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:48:13.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MercService\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MercService\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAuwDAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T21:49:42.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Entities\\AppUser.cs",
+              "RelativeToolTip": "MercService.Core\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:33:01.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MercService.Core",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\MercService.Core.csproj",
+              "RelativeDocumentMoniker": "MercService.Core\\MercService.Core.csproj",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\MercService.Core.csproj",
+              "RelativeToolTip": "MercService.Core\\MercService.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-16T01:08:53.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MercService.DAL",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\MercService.DAL.csproj",
+              "RelativeDocumentMoniker": "MercService.DAL\\MercService.DAL.csproj",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\MercService.DAL.csproj",
+              "RelativeToolTip": "MercService.DAL\\MercService.DAL.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-16T01:03:09.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "MercService.DAL\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwBkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:01:29.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Program.cs",
+              "RelativeDocumentMoniker": "MercService\\Program.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Program.cs",
+              "RelativeToolTip": "MercService\\Program.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAQwBkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T00:25:08.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Concretes\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\CommentRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Concretes\\CommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T00:10:03.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CommentLikes.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\CommentLikes.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\Models\\CommentLikes.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\CommentLikes.cs",
+              "RelativeToolTip": "MercService.Core\\Models\\CommentLikes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T23:16:01.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Abstracts\\ICommentRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\ICommentRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Abstracts\\ICommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T00:09:28.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\ICommentService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Interfaces\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\ICommentService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Interfaces\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T00:23:26.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserComments.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\UserComments.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\Models\\UserComments.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\UserComments.cs",
+              "RelativeToolTip": "MercService.Core\\Models\\UserComments.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwCUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:09:42.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CommentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\CommentViewModel.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\ViewModels\\CommentViewModel.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\CommentViewModel.cs",
+              "RelativeToolTip": "MercService.Core\\ViewModels\\CommentViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T23:10:40.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SubModelProblem.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\SubModelProblem.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\Models\\SubModelProblem.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\SubModelProblem.cs",
+              "RelativeToolTip": "MercService.Core\\Models\\SubModelProblem.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:08:30.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MechanicVM.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\MechanicVM.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\ViewModels\\MechanicVM.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\MechanicVM.cs",
+              "RelativeToolTip": "MercService.Core\\ViewModels\\MechanicVM.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwDAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:56:57.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Mechanic.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\Mechanic.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\Models\\Mechanic.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\Mechanic.cs",
+              "RelativeToolTip": "MercService.Core\\Models\\Mechanic.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:07:14.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Search\\Index.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Views\\Search\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Search\\Index.cshtml",
+              "RelativeToolTip": "MercService\\Views\\Search\\Index.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwEIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T14:16:12.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReplyVM.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\ReplyVM.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\ViewModels\\ReplyVM.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\ReplyVM.cs",
+              "RelativeToolTip": "MercService.Core\\ViewModels\\ReplyVM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T23:28:58.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MercService\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAawFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T03:44:10.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\Mechanic\\Index.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Areas\\Admin\\Views\\Mechanic\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\Mechanic\\Index.cshtml",
+              "RelativeToolTip": "MercService\\Areas\\Admin\\Views\\Mechanic\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T06:06:26.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\Mechanic\\Update.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Areas\\Admin\\Views\\Mechanic\\Update.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\Mechanic\\Update.cshtml",
+              "RelativeToolTip": "MercService\\Areas\\Admin\\Views\\Mechanic\\Update.cshtml",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAANAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T06:07:28.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\Mechanic\\Create.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Areas\\Admin\\Views\\Mechanic\\Create.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\Mechanic\\Create.cshtml",
+              "RelativeToolTip": "MercService\\Areas\\Admin\\Views\\Mechanic\\Create.cshtml",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAqwL0AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T06:07:00.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250615192348_usta2.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250615192348_usta2.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Migrations\\20250615192348_usta2.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250615192348_usta2.cs",
+              "RelativeToolTip": "MercService.DAL\\Migrations\\20250615192348_usta2.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T19:23:49.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MechanicController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Controllers\\MechanicController.cs",
+              "RelativeDocumentMoniker": "MercService\\Areas\\Admin\\Controllers\\MechanicController.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Controllers\\MechanicController.cs",
+              "RelativeToolTip": "MercService\\Areas\\Admin\\Controllers\\MechanicController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAiwHwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:58:05.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MercService\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T03:44:49.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "MercService\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "MercService\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T03:38:57.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LowercaseOnlyAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ValidationAttributes\\LowercaseOnlyAttribute.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\ValidationAttributes\\LowercaseOnlyAttribute.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ValidationAttributes\\LowercaseOnlyAttribute.cs",
+              "RelativeToolTip": "MercService.Core\\ValidationAttributes\\LowercaseOnlyAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:24:37.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MercService\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAOgBAAAAAAAAAAAqwBQCAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T19:29:38.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250615180608_usta.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250615180608_usta.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Migrations\\20250615180608_usta.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250615180608_usta.cs",
+              "RelativeToolTip": "MercService.DAL\\Migrations\\20250615180608_usta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:06:09.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_MechanicsListPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Mechanic\\_MechanicsListPartial.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Views\\Mechanic\\_MechanicsListPartial.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Mechanic\\_MechanicsListPartial.cshtml",
+              "RelativeToolTip": "MercService\\Views\\Mechanic\\_MechanicsListPartial.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T17:12:01.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MercService\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MercService\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:47:21.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SubModelProblemService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\SubModelProblemService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Implementations\\SubModelProblemService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\SubModelProblemService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Implementations\\SubModelProblemService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAjwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:39:46.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MercService\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T22:39:29.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MercService\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T22:39:52.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "MercService.Core\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:13:03.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "MercService.Core\\ViewModels\\LoginVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:13:40.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MercService\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T09:05:16.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MercService\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MercService\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T03:44:39.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20250614045418_cedvel2.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250614045418_cedvel2.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Migrations\\20250614045418_cedvel2.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250614045418_cedvel2.cs",
+              "RelativeToolTip": "MercService.DAL\\Migrations\\20250614045418_cedvel2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T04:54:19.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "20250614044805_cedvel.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250614044805_cedvel.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Migrations\\20250614044805_cedvel.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250614044805_cedvel.cs",
+              "RelativeToolTip": "MercService.DAL\\Migrations\\20250614044805_cedvel.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwE0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T04:48:06.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "LookupController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\LookupController.cs",
+              "RelativeDocumentMoniker": "MercService\\Controllers\\LookupController.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\LookupController.cs",
+              "RelativeToolTip": "MercService\\Controllers\\LookupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:48:53.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "MercService\\Controllers\\SearchController.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "MercService\\Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:12:22.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "HomeIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\HomeIndexViewModel.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\ViewModels\\HomeIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\HomeIndexViewModel.cs",
+              "RelativeToolTip": "MercService.Core\\ViewModels\\HomeIndexViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIBJwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T04:13:17.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CarProblemController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\CarProblemController.cs",
+              "RelativeDocumentMoniker": "MercService\\Controllers\\CarProblemController.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\Controllers\\CarProblemController.cs",
+              "RelativeToolTip": "MercService\\Controllers\\CarProblemController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowC8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:58:48.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SearchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\SearchViewModel.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\ViewModels\\SearchViewModel.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\SearchViewModel.cs",
+              "RelativeToolTip": "MercService.Core\\ViewModels\\SearchViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:11:41.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\Model.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\Models\\Model.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\Model.cs",
+              "RelativeToolTip": "MercService.Core\\Models\\Model.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:08:57.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "SubModelProblemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\SubModelProblemRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Concretes\\SubModelProblemRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\SubModelProblemRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Concretes\\SubModelProblemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:27:48.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20250611181003_yeni2.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250611181003_yeni2.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Migrations\\20250611181003_yeni2.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250611181003_yeni2.cs",
+              "RelativeToolTip": "MercService.DAL\\Migrations\\20250611181003_yeni2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T18:10:04.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CarProblemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\CarProblemRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Concretes\\CarProblemRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\CarProblemRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Concretes\\CarProblemRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAIA8wCAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:13:56.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CarProblem.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\CarProblem.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\Models\\CarProblem.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\CarProblem.cs",
+              "RelativeToolTip": "MercService.Core\\Models\\CarProblem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:22:23.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SubModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\SubModel.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\Models\\SubModel.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\SubModel.cs",
+              "RelativeToolTip": "MercService.Core\\Models\\SubModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:05:40.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ISubModelProblemService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\ISubModelProblemService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Interfaces\\ISubModelProblemService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\ISubModelProblemService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Interfaces\\ISubModelProblemService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:38:42.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SubModelService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\SubModelService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Implementations\\SubModelService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\SubModelService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Implementations\\SubModelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:49:01.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ISubModelService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\ISubModelService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Interfaces\\ISubModelService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\ISubModelService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Interfaces\\ISubModelService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:48:24.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ISubModelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\ISubModelRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Abstracts\\ISubModelRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\ISubModelRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Abstracts\\ISubModelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:46:11.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "SubModelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\SubModelRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Concretes\\SubModelRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\SubModelRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Concretes\\SubModelRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:45:48.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "SubModelProblemVM.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\SubModelProblemVM.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\ViewModels\\SubModelProblemVM.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\ViewModels\\SubModelProblemVM.cs",
+              "RelativeToolTip": "MercService.Core\\ViewModels\\SubModelProblemVM.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBJwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:26:20.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "MercService.Core\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Core\\Models\\Category.cs",
+              "RelativeToolTip": "MercService.Core\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:09:56.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20250611143154_elave.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250611143154_elave.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Migrations\\20250611143154_elave.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Migrations\\20250611143154_elave.cs",
+              "RelativeToolTip": "MercService.DAL\\Migrations\\20250611143154_elave.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:31:55.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IModelService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\IModelService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Interfaces\\IModelService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\IModelService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Interfaces\\IModelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:49:22.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:22:19.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ICarProblemService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\ICarProblemService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Interfaces\\ICarProblemService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\ICarProblemService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Interfaces\\ICarProblemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:49:42.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "CarProblemService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\CarProblemService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Implementations\\CarProblemService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\CarProblemService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Implementations\\CarProblemService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:50:58.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IUserCommentsService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\IUserCommentsService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Interfaces\\IUserCommentsService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Interfaces\\IUserCommentsService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Interfaces\\IUserCommentsService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:49:21.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ICarProblemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\ICarProblemRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Abstracts\\ICarProblemRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\ICarProblemRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Abstracts\\ICarProblemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:06:40.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "UserCommentsService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\UserCommentsService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Implementations\\UserCommentsService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\UserCommentsService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Implementations\\UserCommentsService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:49:50.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UserCommentsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\UserCommentsRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Concretes\\UserCommentsRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\UserCommentsRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Concretes\\UserCommentsRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:46:54.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "IUserCommentsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\IUserCommentsRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Abstracts\\IUserCommentsRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\IUserCommentsRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Abstracts\\IUserCommentsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:46:09.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ModelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\ModelRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Concretes\\ModelRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\ModelRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Concretes\\ModelRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:10:10.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Abstracts\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\ICategoryRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Abstracts\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T20:56:34.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "IModelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\IModelRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Abstracts\\IModelRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Abstracts\\IModelRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Abstracts\\IModelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:05:41.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ModelService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\ModelService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Implementations\\ModelService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\ModelService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Implementations\\ModelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:50:29.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "MercService.Business\\Services\\Implementations\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\Services\\Implementations\\CategoryService.cs",
+              "RelativeToolTip": "MercService.Business\\Services\\Implementations\\CategoryService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:23:39.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "MercService.DAL\\Repositories\\Concretes\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.DAL\\Repositories\\Concretes\\CategoryRepository.cs",
+              "RelativeToolTip": "MercService.DAL\\Repositories\\Concretes\\CategoryRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:08:07.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "MercService.Business.csproj",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\MercService.Business.csproj",
+              "RelativeDocumentMoniker": "MercService.Business\\MercService.Business.csproj",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService.Business\\MercService.Business.csproj",
+              "RelativeToolTip": "MercService.Business\\MercService.Business.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T21:20:38.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\appsettings.json",
+              "RelativeDocumentMoniker": "MercService\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u05D3\u05E0\u05D9\u05D6 \u05D2\u05D5\u05E1\u05D9\u05D9\u05E0\u05D5\u05D1\\source\\repos\\MercServiceSloution\\MercService\\appsettings.json",
+              "RelativeToolTip": "MercService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-10T18:30:21.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+﻿@model MercService.Core.ViewModels.RegisterVM
+@{
+    ViewData["Title"] = "Daxil ol";
+    Layout = null; // Əgər layout istifadə etmirsənsə
+}
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <link rel="icon" type="image/png" href="~/icon/merclogo.jpg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mercedes - Qeydiyyatdan keç</title>
+    <link rel="stylesheet" href="~/assets/css/register.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Qeydiyyatdan keç</h2>
+
+            @* Server Validation Errors *@
+            @if (!ViewData.ModelState.IsValid && ViewData.ModelState.Count > 0)
+            {
+                <div class="validation-summary-errors">
+                    <ul>
+                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            <li>@error.ErrorMessage</li>
+                        }
+                    </ul>
+                </div>
+            }
+
+            <form method="post" asp-action="Register" asp-controller="Account">
+                <label for="Name">Ad</label>
+                <input asp-for="Name" oninput="capitalizeFirstLetter(this)" placeholder="Adınızı daxil edin" />
+
+                <label for="Surname">Soyad</label>
+                <input asp-for="Surname" oninput="capitalizeFirstLetter(this)" placeholder="Soyadınızı daxil edin" />
+
+                <label for="Username">İstifadəçi adı</label>
+                <input asp-for="Username" placeholder="İstifadəçi adınızı daxil edin" />
+
+                <label for="Email">Email ünvanı</label>
+                <input asp-for="Email" placeholder="Email ünvanınızı daxil edin" />
+
+                <label for="Password">Şifrə</label>
+                <input asp-for="Password" type="password" placeholder="Şifrənizi daxil edin" />
+
+                <label for="ConfirmPassword">Şifrəni təsdiqlə</label>
+                <input asp-for="ConfirmPassword" type="password" placeholder="Şifrənizi təkrar daxil edin" />
+
+                <button type="submit">Qeydiyyatdan keç</button>
+                <p>Artıq hesabınız var? <a href="/Account/Login">Daxil olun</a></p>
+            </form>
+        </div>
+        <div class="image-box">
+            <img src="~/assets/img/merc2.jpg" alt="Mercedes" />
+        </div>
+    </div>
+
+    <script>
+        function capitalizeFirstLetter(input) {
+            let val = input.value;
+            if(val.length > 0){
+                input.value = val.charAt(0).toUpperCase() + val.slice(1).toLowerCase();
+            }
+        }
+    </script>
+</body>
+
+</html>

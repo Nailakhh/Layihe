@@ -1,0 +1,251 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f1f1f1, #dcdcdc);
+    color: #333;
+    padding: 20px;
+}
+
+.mechanic-detail {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+    /* Başlıq */
+    .mechanic-detail h1 {
+        font-size: 36px;
+        color: #111;
+        margin-bottom: 4px;
+    }
+
+    .mechanic-detail h3 {
+        font-size: 22px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+/* Ümumi info bölməsi */
+.mechanic-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+}
+
+    .mechanic-info img {
+        max-width: 200px;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        object-fit: cover;
+    }
+
+    .mechanic-info p {
+        flex: 1 1 300px;
+        font-size: 16px;
+        color: #444;
+        margin-bottom: 12px;
+        line-height: 1.4;
+    }
+
+        .mechanic-info p strong {
+            color: #cc0000;
+            margin-right: 6px;
+        }
+
+/* Sosial linklər */
+.social-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+    .social-links a {
+        text-decoration: none;
+        color: #cc0000;
+        font-weight: 600;
+        border: 1.5px solid #cc0000;
+        padding: 6px 12px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .social-links a:hover {
+            background-color: #cc0000;
+            color: #fff;
+        }
+
+/* Ayırıcı xətt */
+hr {
+    border: none;
+    border-top: 2px dashed #bbb;
+    margin: 30px 0;
+}
+
+/* Rəylər bölməsi */
+.comments-section h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+.comment-card {
+    background: #f8f8f8;
+    border-radius: 14px;
+    padding: 16px 20px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    margin-bottom: 18px;
+    transition: transform 0.2s ease;
+}
+
+    .comment-card:hover {
+        transform: translateY(-3px);
+    }
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+    .comment-header img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        border: 2px solid #cc0000;
+    }
+
+    .comment-header strong {
+        font-weight: 600;
+        font-size: 17px;
+        color: #111;
+    }
+
+    .comment-header small {
+        margin-left: auto;
+        font-size: 13px;
+        color: gray;
+        font-style: italic;
+    }
+
+.comment-card p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Ürək düyməsi */
+.like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #cc0000;
+    transition: color 0.3s ease;
+    vertical-align: middle;
+}
+
+    .like-btn:hover {
+        color: #ff3b3b;
+    }
+
+    .like-btn span {
+        pointer-events: none;
+    }
+
+    .like-btn.liked span {
+        color: #ff0000;
+    }
+
+    .like-btn + small {
+        margin-left: 8px;
+        font-size: 14px;
+        vertical-align: middle;
+        color: #666;
+    }
+
+/* Reytinq ulduzları */
+.comment-card p:last-child {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+    .comment-card p:last-child span {
+        font-size: 18px;
+    }
+
+        .comment-card p:last-child span:nth-child(n+1):not(:last-child) {
+            color: gold;
+        }
+
+        .comment-card p:last-child span:nth-last-child(-n+5) {
+            color: lightgray;
+        }
+
+/* Rəy yazma formu */
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+    form textarea {
+        resize: vertical;
+        min-height: 100px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 12px;
+        border: 1.8px solid #ccc;
+        transition: border-color 0.3s ease;
+    }
+
+        form textarea:focus {
+            outline: none;
+            border-color: #cc0000;
+        }
+
+    form div label {
+        font-size: 18px;
+        cursor: pointer;
+        margin-right: 12px;
+    }
+
+    form input[type="radio"] {
+        margin-right: 4px;
+        cursor: pointer;
+    }
+
+    form button {
+        width: 140px;
+        background-color: #cc0000;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        border: none;
+        padding: 10px 0;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        form button:hover {
+            background-color: #a30000;
+        }

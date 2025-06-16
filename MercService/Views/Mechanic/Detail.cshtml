@@ -1,0 +1,457 @@
+﻿@using MercService.Core.ViewModels
+@model MechanicDetailVM
+
+@{
+    var mechanic = Model.Mechanic;
+}
+<link rel="stylesheet" href="~/assets/css/detail.css" />
+
+<div class="mechanic-detail">
+
+    <h1>@mechanic.FullName</h1>
+    <h3>@mechanic.Designation</h3>
+
+    <div class="mechanic-info">
+        <div class="text-info">
+            <p><strong>Təcrübə:</strong> @(mechanic.ExperienceYear ?? 0) il</p>
+            <p><strong>Əlaqə nömrəsi:</strong> @mechanic.PhoneNumber</p>
+            <p><strong>İş sahələri:</strong> @mechanic.RepairAreas</p>
+            <p><strong>Sertifikatlar:</strong> @mechanic.Certificates</p>
+
+            <p>
+                <strong>Orta reytinq:</strong>
+                @if (mechanic.AverageRating.HasValue)
+                {
+                    var avg = (int)Math.Round(mechanic.AverageRating.Value);
+                    for (int i = 0; i < avg; i++)
+                    {
+                        <span class="star-filled">&#9733;</span>
+                    }
+                    for (int i = avg; i < 5; i++)
+                    {
+                        <span class="star-empty">&#9733;</span>
+                    }
+                    <span> (@mechanic.AverageRating.Value.ToString("0.0"))</span>
+                }
+                else
+                {
+                    <span>Hələ qiymətləndirilməyib</span>
+                }
+            </p>
+
+            <div class="social-links">
+                @if (!string.IsNullOrEmpty(mechanic.FacebookUrl))
+                {
+                    <a href="https://facebook.com/@mechanic.FacebookUrl" target="_blank">Facebook</a>
+                }
+                @if (!string.IsNullOrEmpty(mechanic.TwitterUrl))
+                {
+                    <a href="https://twitter.com/@mechanic.TwitterUrl" target="_blank">Twitter</a>
+                }
+                @if (!string.IsNullOrEmpty(mechanic.InstagramUrl))
+                {
+                    <a href="https://instagram.com/@mechanic.InstagramUrl" target="_blank">Instagram</a>
+                }
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="~/upload/mechanic/@mechanic.ImageUrl" alt="@mechanic.FullName" />
+        </div>
+    </div>
+
+    <hr />
+
+    <h2>Rəylər və Qiymətləndirmələr</h2>
+
+    @if (Model.Comments != null && Model.Comments.Any())
+    {
+        <div class="comments-section">
+            @foreach (var comment in Model.Comments)
+            {
+                <div class="comment-card">
+                    <div class="comment-header">
+                        <img src="@comment.UserAvatarUrl" alt="@comment.UserName" />
+                        <strong>@comment.UserName</strong>
+                        <small>@comment.CreatedAt.ToString("dd.MM.yyyy HH:mm")</small>
+                    </div>
+
+                    <p>@comment.Text</p>
+
+                    <p>
+                        <button type="button" class="like-btn" data-comment-id="@comment.Id" title="Bəyən">
+                            <span class="heart">&#10084;</span>
+                        </button>
+                        <small class="like-count">@comment.LikeCount</small>
+                    </p>
+
+                    <p>
+                        Qiymət:
+                        @for (int i = 0; i < comment.Rating; i++)
+                        {
+                            <span class="star-filled">&#9733;</span>
+                        }
+                        @for (int i = comment.Rating; i < 5; i++)
+                        {
+                            <span class="star-empty">&#9733;</span>
+                        }
+                    </p>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>Hələ heç bir rəy yazılmayıb.</p>
+    }
+
+    <hr />
+
+    <div class="glass-container">
+        <h3>Rəy yaz və qiymətləndir</h3>
+        <form asp-action="AddComment" method="post">
+            <input type="hidden" name="mechanicId" value="@mechanic.Id" />
+
+            <div class="form-group">
+                <textarea name="text" rows="4" placeholder="Rəyinizi yazın..." required>@Model.NewCommentText</textarea>
+            </div>
+
+            <div class="rating-group">
+                <label><input type="radio" name="rating" value="1" required>⭐</label>
+                <label><input type="radio" name="rating" value="2">⭐⭐</label>
+                <label><input type="radio" name="rating" value="3">⭐⭐⭐</label>
+                <label><input type="radio" name="rating" value="4">⭐⭐⭐⭐</label>
+                <label><input type="radio" name="rating" value="5">⭐⭐⭐⭐⭐</label>
+            </div>
+
+            <button type="submit">Göndər</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .mechanic-detail {
+        max-width: 900px;
+        margin: 40px auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #340707;
+        padding: 10px 15px;
+        background: #cbcbcb; /* Tünd qırmızı fon */
+        border-radius: 15px;
+        box-shadow: 0 8px 32px rgba(54, 52, 52, 0.9);
+        border: none;
+    }
+
+        .mechanic-detail h1 {
+            font-size: 2.8rem;
+            margin-bottom: 3px;
+            font-weight: 700;
+            color: #550a0a; /* Açıq qırmızı */
+        }
+
+        .mechanic-detail h3 {
+            font-weight: 500;
+            color: #340707;
+            
+            margin-bottom: 15px;
+        }
+
+    .mechanic-info {
+        display: flex;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .text-info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        height:500px;
+    }
+
+        .text-info ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .text-info li {
+            margin: 3px 0;
+            line-height: 1.2;
+        }
+
+        .text-info p {
+            margin: 2px 0;
+            padding: 0;
+            line-height: 1.2;
+            font-size: 1.1rem;
+            color: #383737;
+        }
+
+        .text-info strong {
+            color: #340707;
+            
+        }
+
+    .image-container {
+        flex-shrink: 0;
+        max-width: 300px;
+    }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(240, 240, 240, 0.8);
+            object-fit: cover;
+        }
+
+    .social-links a {
+        display: inline-block;
+        margin-right: 15px;
+        padding: 8px 20px;
+        background: #800101;
+        color: #a1a1a1;
+        font-weight: 600;
+        border-radius: 25px;
+        text-decoration: none;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+        .social-links a:hover {
+            background: #ca3131;
+            color: white;
+        }
+
+    .star-filled {
+        color: rgb(255, 116, 30);
+        font-size: 20px;
+        vertical-align: middle;
+    }
+
+    .star-empty {
+        color: #716767;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+
+    .comments-section {
+        padding: 30px;
+        max-height: 550px;
+        overflow-y: auto;
+        box-shadow: inset 0 0 10px rgba(53, 51, 51, 0.3);
+        margin-bottom: 35px;
+    }
+
+    .comment-card {
+        background: #312a2a;
+        border-radius: 12px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        box-shadow: 0 3px 12px rgba(16, 16, 16, 0.7);
+        transition: transform 0.2s ease;
+        color: #fff;
+    }
+
+        .comment-card:hover {
+            transform: translateY(-3px);
+        }
+
+    .comment-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+
+        .comment-header img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
+        }
+
+        .comment-header strong {
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .comment-header small {
+            margin-left: auto;
+            color: #8f8f8f;
+            font-size: 0.85rem;
+        }
+
+    .like-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        transition: transform 0.2s ease;
+        color: gray;
+    }
+
+        .like-btn:hover {
+            transform: scale(1.3);
+            color: rgb(220, 7, 7);
+        }
+
+    .heart {
+        color: inherit;
+        transition: color 0.3s ease;
+    }
+
+    .like-count {
+        margin-left: 8px;
+        font-size: 14px;
+        color: #c42d2d;
+        vertical-align: middle;
+    }
+
+    .glass-container {
+        padding: 25px 30px;
+        border-radius: 20px;
+        box-shadow: 0 8px 32px rgba(108, 107, 107, 0.9);
+        max-width: 600px;
+        margin: 0 auto 50px auto;
+    }
+
+        .glass-container h3 {
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+            color: #4d1111;
+            text-align: center;
+            font-weight: 700;
+        }
+
+    .form-group textarea {
+        width: 100%;
+        border-radius: 12px;
+        border: none;
+        resize: none;
+        padding: 12px 8px;
+        font-size: 1.1rem;
+        font-family: inherit;
+        box-shadow: 0 4px 12px rgba(103, 101, 101, 0.5);
+        background: #440000;
+        transition: box-shadow 0.3s ease;
+    }
+
+        .form-group textarea::placeholder {
+            color: #ffffff;
+        }
+
+        .form-group textarea:focus {
+            outline: none;
+            box-shadow: 0 0 15px #5f5f5f;
+            background: #580909;
+            color: #ffffff;
+        }
+
+    .rating-group {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+        .rating-group label {
+            cursor: pointer;
+            font-size: 1.8rem;
+            color: #660000;
+            margin: 0 8px;
+            transition: color 0.3s ease;
+        }
+
+        .rating-group input[type="radio"]:checked + label {
+            color: rgb(174, 97, 25);
+        }
+
+    .glass-container button[type="submit"] {
+        background: #550505;
+        border: none;
+        padding: 12px 35px;
+        color: white;
+        font-weight: 600;
+        font-size: 1.1rem;
+        border-radius: 25px;
+        cursor: pointer;
+        width: 100%;
+        transition: background 0.3s ease;
+    }
+
+        .glass-container button[type="submit"]:hover {
+            background: #901d1d;
+        }
+
+
+
+    .image-container {
+        max-width: 100%;
+        text-align: center;
+    }
+
+        .image-container img {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+    .star-filled {
+        color: rgb(255, 116, 30);
+        font-size: 14px;
+        vertical-align: middle;
+    }
+
+    .star-empty {
+        color: #716767;
+        font-size: 14px;
+        vertical-align: middle;
+    }
+
+    .star {
+        cursor: pointer;
+        transition: color 0.3s ease, transform 0.2s ease;
+        color: #777;
+        font-size: 14px;
+    }
+
+    .rating-group {
+        text-align: center;
+        font-size: 0.1rem;
+        color: #777;
+        user-select: none;
+    }
+
+</style>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.like-btn').click(function () {
+                var button = $(this);
+                var commentId = button.data('comment-id');
+
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("LikeComment", "Mechanics")',
+                    data: { commentId: commentId },
+                    success: function (response) {
+                        button.next('.like-count').text(response.likeCount);
+
+                        var heart = button.find('.heart');
+                        if (heart.css('color') === 'rgb(255, 0, 0)') {
+                            heart.css('color', 'gray');
+                        } else {
+                            heart.css('color', 'red');
+                        }
+                    },
+                    error: function () {
+                        alert("Like əməliyyatında xəta baş verdi.");
+                    }
+                });
+            });
+        });
+    </script>
+}

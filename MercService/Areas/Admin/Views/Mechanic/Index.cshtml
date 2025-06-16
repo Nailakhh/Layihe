@@ -1,0 +1,228 @@
+﻿@using MercService.Core.ViewModels
+@model MechanicVM
+
+@using System.Globalization
+@{
+    var azCulture = new CultureInfo("az-Latn-AZ");
+}
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<div class="container">
+    <h1 style="color:white; text-align:center; margin-top:50px;">Ekspertlərin siyahısı</h1>
+    <div class="search-container" style="text-align: right; margin-bottom: 20px;">
+        <div class="search-wrapper">
+            <span id="clearSearch" class="clear-btn">&times;</span>
+            <input type="text" id="searchInput" placeholder="Axtar..." />
+        </div>
+    </div>
+    <div style="text-align:center; margin-bottom:20px;">
+        <a asp-area="Admin" asp-action="Create" class="btn btn-submit" asp-controller="Mechanic" style="padding:10px 20px; background-color:#55608f; color:white; text-decoration:none; border-radius:5px;">Yeni Ekspert əlavə et</a>
+   
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Ad,soyad</th>
+                <th>Sahə</th>
+                <th>Şəkil</th>
+                <th>Təcrübə (il)</th>
+                <th>Facebook</th>
+                <th>Instagram</th>
+                <th>Twitter</th>
+                <th>Redaktə</th>
+                <th>Əlavə edilmə Tarixi</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mechanic in Model.Mechanics)
+            {
+                <tr>
+                    <td>@mechanic.Id</td>
+                    <td>@mechanic.FullName</td>
+                    <td>@mechanic.Designation</td>
+                    <td>
+                        <img src="~/upload/mechanic/@mechanic.ImageUrl" width="60" style="border-radius:5px;" />
+                    </td>
+                    <td>@mechanic.ExperienceYear</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(mechanic.FacebookUrl))
+                        {
+                            <a href="@mechanic.FacebookUrl" target="_blank" class="facebook-link">
+                                <i class="fab fa-facebook fa-lg me-1"></i> @mechanic.FacebookName
+                            </a>
+
+                        }
+                    </td>
+
+                    <td>
+                        @if (!string.IsNullOrEmpty(mechanic.InstagramUrl))
+                        {
+                            <a href="@mechanic.InstagramUrl" target="_blank" class="text-danger">
+                                <i class="fab fa-instagram fa-lg me-1"></i> @mechanic.InstagramName
+                            </a>
+                        }
+                    </td>
+
+                    <td>
+                        @if (!string.IsNullOrEmpty(mechanic.TwitterUrl))
+                        {
+                            <a href="@mechanic.TwitterUrl" target="_blank" class="text-info">
+                                <i class="fab fa-twitter fa-lg me-1"></i> @mechanic.TwitterName
+                            </a>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@mechanic.Id" style="color:lightgreen;">Dəyiş</a> |
+                        <a href="#" class="delete-link" data-id="@mechanic.Id" style="color:red;">Sil</a>
+                    </td>
+                    <td>@mechanic.CreatedAt?.ToString("dd.MM.yyyy HH:mm", azCulture)</td>
+
+
+
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #0a298f, #140b02);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        min-height: 100vh;
+        overflow-x: hidden; /* Yalnız horizontal scroll gizlədilir */
+    }
+
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 80px auto 40px auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff;
+    }
+
+    th {
+        background-color: #55608f;
+        text-align: left;
+    }
+
+    tbody tr:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    tbody td:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .search-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    #searchInput {
+        padding: 10px 40px 10px 30px;
+        border-radius: 8px;
+        border: none;
+        width: 250px;
+        font-size: 16px;
+        outline: none;
+    }
+
+    .clear-btn {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #aaa;
+        font-size: 20px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+        .clear-btn:hover {
+            color: red;}
+
+    .facebook-link {
+        color: black; /* Orijinal Facebook rəngi */
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .facebook-link:hover {
+            color: #1d3d80; /* Daha tünd hover rəngi */
+            text-decoration: underline;
+        }
+
+
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.delete-link').forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const id = this.dataset.id;
+                Swal.fire({
+                    title: 'Əminsinizmi?',
+                    text: "Bu əməliyyat geri alınmayacaq!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Bəli, sil!',
+                    cancelButtonText: 'İmtina et'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = '@Url.Action("Delete", "Mechanic")/' + id;
+                    }
+                });
+            });
+        });
+    });
+
+     document.addEventListener('DOMContentLoaded', function () {
+        const searchInput = document.getElementById('searchInput');
+        const clearBtn = document.getElementById('clearSearch');
+        const tableRows = document.querySelectorAll('tbody tr');
+
+        searchInput.addEventListener('input', function () {
+            const filter = this.value.toLowerCase();
+
+            tableRows.forEach(row => {
+                const fullName = row.cells[1].textContent.toLowerCase();
+                const designation = row.cells[2].textContent.toLowerCase();
+
+                if (fullName.includes(filter) || designation.includes(filter)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+
+        clearBtn.addEventListener('click', function () {
+            searchInput.value = '';
+            tableRows.forEach(row => row.style.display = '');
+        });
+    });
+</script>

@@ -1,0 +1,35 @@
+﻿@model List<MercService.Core.Models.Mechanic>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var mechanic in Model)
+    {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="~/upload/mechanic/@mechanic.ImageUrl" class="card-img-top" style="height: 250px; object-fit: cover;" alt="@mechanic.FullName" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">@mechanic.FullName</h5>
+                            <p class="card-text text-muted">@mechanic.Designation</p>
+                            <div class="d-flex justify-content-center">
+                        @if (!string.IsNullOrWhiteSpace(mechanic.FacebookUrl))
+                        {
+                                        <a href="@mechanic.FacebookUrl" target="_blank" class="me-3"><i class="fab fa-facebook"></i></a>
+                        }
+                        @if (!string.IsNullOrWhiteSpace(mechanic.TwitterUrl))
+                        {
+                                        <a href="@mechanic.TwitterUrl" target="_blank" class="me-3"><i class="fab fa-twitter"></i></a>
+                        }
+                        @if (!string.IsNullOrWhiteSpace(mechanic.InstagramUrl))
+                        {
+                                        <a href="@mechanic.InstagramUrl" target="_blank"><i class="fab fa-instagram"></i></a>
+                        }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    }
+}
+else
+{
+        <p class="text-center">Heç bir usta tapılmadı.</p>
+}
