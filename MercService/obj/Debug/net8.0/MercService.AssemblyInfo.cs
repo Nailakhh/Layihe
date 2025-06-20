@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MercService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a9692d8776ae9aa05aa4c95a53576d360e1c82d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MercService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MercService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

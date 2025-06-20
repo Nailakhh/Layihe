@@ -1,0 +1,52 @@
+﻿@model List<MercService.Core.Models.ClientReview>
+
+@{
+    ViewData["Title"] = "Müştəri Rəyləri - Admin";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <p>Heç bir rəy tapılmadı.</p>
+}
+else
+{
+    <table class="table table-striped" style="margin-top: 80px;">
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Rəy</th>
+                <th>Peşə</th>
+                <th>Tarix</th>
+                <th>Təsdiq</th>
+                <th>Əməliyyatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var review in Model)
+            {
+                <tr>
+                    <td>@review.Name</td>
+                    <td>@review.Comment</td>
+                    <td>@review.Profession</td>
+                    <td>@review.CreatedAt.AddHours(4).ToString("g")</td>
+                    <td>@(review.IsApproved ? "Bəli" : "Xeyr")</td>
+                    <td>
+                        @if (!review.IsApproved)
+                        {
+                            <form asp-action="Approve" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@review.Id" />
+                                <button type="submit" class="btn btn-success btn-sm">Təsdiq et</button>
+                            </form>
+                        }
+                        <form asp-action="Delete" method="post" style="display:inline;" onsubmit="return confirm('Silinsin?');">
+                            <input type="hidden" name="id" value="@review.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

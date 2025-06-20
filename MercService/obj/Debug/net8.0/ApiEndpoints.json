@@ -1,5 +1,42 @@
 [
   {
+    "ContainingType": "MercService.Controllers.ChatController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MercService.Controllers.SendMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MercService.Controllers.ChatController",
+    "Method": "GetMessages",
+    "RelativePath": "api/Chat/{mechanicId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mechanicId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "lastMessageId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LookupController",
     "Method": "GetCategories",
     "RelativePath": "api/Lookup/categories",

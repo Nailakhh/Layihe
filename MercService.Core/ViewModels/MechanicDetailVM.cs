@@ -21,7 +21,8 @@ namespace MercService.Core.ViewModels
 
       
         public string? NewComment { get; set; }
-        public List<UserComments> Comments { get; set; }
-       
+        public List<CommentViewModel> Comments { get; set; } = new();
+
+
     }
 }

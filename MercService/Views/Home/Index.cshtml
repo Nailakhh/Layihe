@@ -2,6 +2,8 @@
 
 
 
+
+
 <style>
     .team-item img {
         width: 100%;
@@ -490,38 +492,48 @@
             <div class="row g-4">
                 @foreach (var tech in Model.Mechanics.Take(4))
                 {
-                   
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item">
-                                <div class="position-relative overflow-hidden">
-                                    <img class="img-fluid" src="@Url.Content("~/upload/mechanic/" + tech.ImageUrl)" alt="@tech.FullName" />
-                                    <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                        @if (!string.IsNullOrEmpty(tech.FacebookUrl))
-                                        {
-                                            <a class="btn btn-square mx-1" href="@tech.FacebookUrl" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
-                                        }
-                                        @if (!string.IsNullOrEmpty(tech.TwitterUrl))
-                                        {
-                                            <a class="btn btn-square mx-1" href="@tech.TwitterUrl" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-                                        }
-                                        @if (!string.IsNullOrEmpty(tech.InstagramUrl))
-                                        {
-                                            <a class="btn btn-square mx-1" href="@tech.InstagramUrl" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                                        }
-                                    </div>
-                                </div>
-                                <div class="bg-light text-center p-4">
-                                    <h5 class="fw-bold mb-0">@tech.FullName</h5>
-                                    <small>@tech.Designation</small>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item clickable-card" onclick="location.href='@Url.Action("Detail", "Mechanic", new { id = tech.Id })'">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid" src="@Url.Content("~/upload/mechanic/" + tech.ImageUrl)" alt="@tech.FullName" />
+                                <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                    @if (!string.IsNullOrEmpty(tech.FacebookUrl))
+                                    {
+                                        <a class="btn btn-square mx-1" href="@tech.FacebookUrl" target="_blank" onclick="event.stopPropagation();"><i class="fab fa-facebook-f"></i></a>
+                                    }
+                                    @if (!string.IsNullOrEmpty(tech.TwitterUrl))
+                                    {
+                                        <a class="btn btn-square mx-1" href="@tech.TwitterUrl" target="_blank" onclick="event.stopPropagation();"><i class="fab fa-twitter"></i></a>
+                                    }
+                                    @if (!string.IsNullOrEmpty(tech.InstagramUrl))
+                                    {
+                                        <a class="btn btn-square mx-1" href="@tech.InstagramUrl" target="_blank" onclick="event.stopPropagation();"><i class="fab fa-instagram"></i></a>
+                                    }
                                 </div>
                             </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="fw-bold mb-0">@tech.FullName</h5>
+                                <small>@tech.Designation</small>
+                            </div>
                         </div>
+                    </div>
                 }
             </div>
+
+
         }
 
 
+        <style>
+            .clickable-card {
+                cursor: pointer;
+                transition: transform 0.2s ease;
+            }
 
+                .clickable-card:hover {
+                    transform: scale(1.02);
+                }
+        </style>
         <!-- Button -->
         <div class="text-center mt-4">
             <a asp-action="Index" asp-controller="Mechanic" class="btn btn-primary rounded-pill px-5 py-3">
@@ -529,50 +541,114 @@
             </a>
         </div>
     </div>
-</div>
-<!-- Team End -->
-<!-- Testimonial Start -->
+</div><!-- Rəy bölməsi başı -->
 <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+
     <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title px-3 py-2 d-inline-block border-bottom border-danger fw-bold" style="font-size: 32px;">
+                Müştəri Rəyləri
+            </h2>
+            <p class="mt-2 text-muted">Bizim haqqımızda nə düşünürlər?</p>
+        </div>
+        <!-- ... testimonial carousel ... -->
+        @if (Model.ClientReviews != null && Model.ClientReviews.Any())
+        {
+            <div class="owl-carousel testimonial-carousel position-relative mb-5">
+                @foreach (var review in Model.ClientReviews)
+                {
+                    <div class="testimonial-item text-center px-4">
+                        <img class="bg-light rounded-circle p-2 mx-auto mb-3"
+                             src="@(string.IsNullOrEmpty(review.AppUser?.AvatarUrl) ? Url.Content("~/assets/img/defuserprofil.png") : Url.Content("~/upload/profilimage/" + review.AppUser.AvatarUrl))"
+                             style="width: 80px; height: 80px; object-fit: cover; border-radius: 50%; padding: 0; border: 2px solid #ddd;"
+                             alt="@review.Name" />
+
+
+                        <h5 class="mb-1 fw-bold">
+                            @(review.AppUser?.FullName ?? review.Name)
+                        </h5>
+
+
+
+                        <p class="text-muted fst-italic">@review.Profession</p>
+                        <div class="testimonial-text bg-light text-center p-4 rounded shadow-sm">
+                            <p class="mb-0">@review.Comment</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="text-center text-muted mb-5">Heç bir rəy yoxdur</div>
+        }
+
+
         <div class="text-center">
-            <h6 class="text-primary text-uppercase">// Testimonial //</h6>
-            <h1 class="mb-5">Our Clients Say!</h1>
+            <button id="showReviewFormBtn" class="btn btn-outline-primary rounded-pill px-4 py-2">
+                Rəy bildirmək
+            </button>
         </div>
-        <div class="owl-carousel testimonial-carousel position-relative">
-            <div class="testimonial-item text-center">
-                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="~/assets/img/testimonial-1.jpg" style="width: 80px; height: 80px;">
-                <h5 class="mb-0">Client Name</h5>
-                <p>Profession</p>
-                <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                </div>
-            </div>
-            <div class="testimonial-item text-center">
-                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="~/assets/img/testimonial-2.jpg" style="width: 80px; height: 80px;">
-                <h5 class="mb-0">Client Name</h5>
-                <p>Profession</p>
-                <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                </div>
-            </div>
-            <div class="testimonial-item text-center">
-                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="~/assets/img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                <h5 class="mb-0">Client Name</h5>
-                <p>Profession</p>
-                <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                </div>
-            </div>
-            <div class="testimonial-item text-center">
-                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="~/assets/img/testimonial-4.jpg" style="width: 80px; height: 80px;">
-                <h5 class="mb-0">Client Name</h5>
-                <p>Profession</p>
-                <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                </div>
-            </div>
+
+        <div id="reviewFormContainer" class="mt-4" style="display: none; max-width: 600px; margin: 0 auto;">
+            <h2 class="text-center mb-4">Rəyinizi bizimlə bölüşün</h2>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <form asp-controller="ClientReview" asp-action="Add" method="post" class="needs-validation" novalidate>
+                    <input type="hidden" name="Name" value="@User.Identity.Name" />
+                    <input type="hidden" name="ImageUrl" value="@Url.Content("~/assets/img/defuserprofil.png")" />
+
+                    <div class="mb-3">
+                        <label for="Profession" class="form-label fw-semibold">Peşəniz (istəyə bağlı)</label>
+                        <input type="text" class="form-control" id="Profession" name="Profession" maxlength="50" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Comment" class="form-label fw-semibold">Rəyiniz <span class="text-danger">*</span></label>
+                        <textarea class="form-control" id="Comment" name="Comment" rows="4" required maxlength="500"></textarea>
+                        <div class="invalid-feedback">Zəhmət olmasa, rəyinizi daxil edin.</div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Rəyimi göndər</button>
+                </form>
+            }
+            else
+            {
+                <p class="alert alert-warning text-center">
+                    Rəy yazmaq üçün sistemə <a href="@Url.Action("Login", "Account")">daxil olun</a> və ya <a href="@Url.Action("Register", "Account")">qeydiyyatdan keçin</a>.
+                </p>
+            }
+
+
         </div>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success mt-4" role="alert">
+                @TempData["SuccessMessage"]
+            </div>
+        }
     </div>
+</div>
+
+
+<div class="container my-5">
+    <h2 class="mb-4">📍 Servis Xəritədə</h2>
+    <div id="map" style="width: 100%; height: 500px; border-radius: 10px;"></div>
+    @if (Model.Locations != null)
+    {
+        foreach (var loc in Model.Locations)
+        {
+            <text>
+                //Bizi asanlıqla tapın!
+            </text>
+        }
+    }
+    else
+    {
+        <text>// Lokasiya tapılmadı</text>
+    }
+
 </div>
 
 
@@ -667,5 +743,75 @@
             });
     });
 </script>
+
+
+
+@section Scripts {
+
+    <script>
+        document.getElementById('showReviewFormBtn').addEventListener('click', function () {
+            const formContainer = document.getElementById('reviewFormContainer');
+            if (formContainer.style.display === 'none') {
+                formContainer.style.display = 'block';
+                this.style.display = 'none';
+                window.scrollTo({ top: formContainer.offsetTop - 20, behavior: 'smooth' });
+            }
+        });
+
+        (function () {
+            'use strict';
+            const forms = document.querySelectorAll('.needs-validation');
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+    </script>
+
+    <script>
+        let map;
+
+        function initMap() {
+            const locations = [
+        @foreach (var loc in Model.Locations)
+        {
+            <text>{ lat: @loc.Latitude.ToString(System.Globalization.CultureInfo.InvariantCulture), lng: @loc.Longitude.ToString(System.Globalization.CultureInfo.InvariantCulture), title: "@loc.Name" },</text>
+        }
+            ];
+
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: locations.length > 0 ? locations[0] : { lat: 40.4093, lng: 49.8671 },
+                zoom: 11
+            });
+
+            locations.forEach(loc => {
+                const marker = new google.maps.Marker({
+                    position: { lat: loc.lat, lng: loc.lng },
+                    map: map,
+                    title: loc.title,
+                    icon: {
+                        url: '/assets/img/map.png',
+                        scaledSize: new google.maps.Size(60, 60)
+                    }
+                });
+
+                marker.addListener('click', () => {
+                    const url = `https://www.google.com/maps/search/?api=1&query=${loc.lat},${loc.lng}`;
+                    window.open(url, '_blank');
+                });
+            });
+        }
+    </script>
+
+  
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv6HvDCwWZBAgtFfhzNRU9kj7Ax7A7Hlc&libraries=places&callback=initMap&loading=async" async defer></script>
+}
+
+
 
 <!-- Testimonial End -->

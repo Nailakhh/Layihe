@@ -7,6 +7,7 @@ using MercService.Business.Services.Interfaces;
 using MercService.Business.Services.Implementations;
 using MercService.DAL.Repositories.Concretes;
 using MercService.Core.Entities;
+using MercService.Hubs;
 namespace MercService
 {
     public class Program
@@ -59,6 +60,7 @@ namespace MercService
             //            })
             //.AddEntityFrameworkStores<AppDbContext>()
             //.AddDefaultTokenProviders();
+        
 
 
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -85,11 +87,18 @@ namespace MercService
             builder.Services.AddScoped<ICommentRepository, CommentRepository>();
             builder.Services.AddScoped<ICommentService, CommentService>();
 
+            builder.Services.AddScoped<IChatMessageRepository, ChatMessageRepository>();
+            builder.Services.AddScoped<IChatService, ChatService>();
+         
+            builder.Services.AddScoped<IClientReviewRepository, ClientReviewRepository>();
+            builder.Services.AddScoped<IClientReviewService, ClientReviewService>();
 
+
+            builder.Services.AddSignalR();
 
             var app = builder.Build();
 
-
+            app.MapHub<ChatHub>("/chatHub");
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -110,9 +119,13 @@ namespace MercService
             // 2. Sonra authorization
             app.UseAuthorization();
 
-
+       
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapHub<ChatHub>("/chatHub");
+
+
+
                 // Admin Area üçün
                 endpoints.MapControllerRoute(
                     name: "areas",

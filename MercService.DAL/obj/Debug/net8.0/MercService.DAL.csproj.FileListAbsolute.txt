@@ -13,3 +13,4 @@ C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\refint\MercService.DAL.dll
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\MercService.DAL.pdb
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\ref\MercService.DAL.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService.DAL\obj\Debug\net8.0\MercService.DAL.sourcelink.json

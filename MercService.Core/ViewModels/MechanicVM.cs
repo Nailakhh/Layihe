@@ -54,6 +54,7 @@ namespace MercService.Core.ViewModels
         [Range(0, double.MaxValue, ErrorMessage = "Maksimum qiymət 0 və daha böyük olmalıdır")]
         public decimal? MaxPrice { get; set; }
 
+        public List<MechanicVM> ChatMechanics { get; set; }
 
 
         public string FacebookName => string.IsNullOrWhiteSpace(FacebookUrl)

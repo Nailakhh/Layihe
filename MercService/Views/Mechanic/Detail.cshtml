@@ -4,22 +4,25 @@
 @{
     var mechanic = Model.Mechanic;
 }
-<link rel="stylesheet" href="~/assets/css/detail.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
 <div class="mechanic-detail">
+    <a onclick="history.back()" class="back-button" style="cursor:pointer; display:inline-block; margin-bottom:20px; color:#550a0a;">
+        ← Geri qayıt
+    </a>
 
     <h1>@mechanic.FullName</h1>
     <h3>@mechanic.Designation</h3>
 
     <div class="mechanic-info">
         <div class="text-info">
-            <p><strong>Təcrübə:</strong> @(mechanic.ExperienceYear ?? 0) il</p>
-            <p><strong>Əlaqə nömrəsi:</strong> @mechanic.PhoneNumber</p>
-            <p><strong>İş sahələri:</strong> @mechanic.RepairAreas</p>
-            <p><strong>Sertifikatlar:</strong> @mechanic.Certificates</p>
+            <p><i class="fas fa-briefcase icon"></i><strong>Təcrübə:</strong> @(mechanic.ExperienceYear ?? 0) il</p>
+            <p><i class="fas fa-tools icon"></i><strong>İş sahələri:</strong> @mechanic.RepairAreas</p>
+            <p><i class="fas fa-certificate icon"></i><strong>Sertifikatlar:</strong> @mechanic.Certificates</p>
 
             <p>
-                <strong>Orta reytinq:</strong>
+                <i class="fas fa-star-half-alt icon"></i><strong>Orta reytinq:</strong>
                 @if (mechanic.AverageRating.HasValue)
                 {
                     var avg = (int)Math.Round(mechanic.AverageRating.Value);
@@ -39,18 +42,26 @@
                 }
             </p>
 
+            <p><i class="fas fa-phone-alt icon"></i><strong>Əlaqə nömrəsi:</strong> @mechanic.PhoneNumber</p>
+
             <div class="social-links">
-                @if (!string.IsNullOrEmpty(mechanic.FacebookUrl))
+                @if (!string.IsNullOrWhiteSpace(mechanic.FacebookUrl))
                 {
-                    <a href="https://facebook.com/@mechanic.FacebookUrl" target="_blank">Facebook</a>
+                    <a href="@mechanic.FacebookUrl" target="_blank" rel="noopener">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
                 }
-                @if (!string.IsNullOrEmpty(mechanic.TwitterUrl))
+                @if (!string.IsNullOrWhiteSpace(mechanic.TwitterUrl))
                 {
-                    <a href="https://twitter.com/@mechanic.TwitterUrl" target="_blank">Twitter</a>
+                    <a href="@mechanic.TwitterUrl" target="_blank" rel="noopener">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
                 }
-                @if (!string.IsNullOrEmpty(mechanic.InstagramUrl))
+                @if (!string.IsNullOrWhiteSpace(mechanic.InstagramUrl))
                 {
-                    <a href="https://instagram.com/@mechanic.InstagramUrl" target="_blank">Instagram</a>
+                    <a href="@mechanic.InstagramUrl" target="_blank" rel="noopener">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
                 }
             </div>
         </div>
@@ -69,33 +80,36 @@
         <div class="comments-section">
             @foreach (var comment in Model.Comments)
             {
+                var isLiked = comment.IsLikedByCurrentUser;
+
                 <div class="comment-card">
                     <div class="comment-header">
-                        <img src="@comment.UserAvatarUrl" alt="@comment.UserName" />
-                        <strong>@comment.UserName</strong>
-                        <small>@comment.CreatedAt.ToString("dd.MM.yyyy HH:mm")</small>
+                        <img src="@(string.IsNullOrWhiteSpace(comment.UserAvatarUrl) ? "/assets/img/default-avatar.png" : comment.UserAvatarUrl)" alt="@comment.AppUserFullName" />
+                        <strong>@(string.IsNullOrWhiteSpace(comment.UserName) ? "Anonim" : comment.UserName)</strong>
+
+                        <small>@(comment.CreatedAt?.ToLocalTime().ToString("dd.MM.yyyy HH:mm") ?? "Tarix yoxdur")</small>
                     </div>
 
                     <p>@comment.Text</p>
 
-                    <p>
-                        <button type="button" class="like-btn" data-comment-id="@comment.Id" title="Bəyən">
+                    <div class="comment-footer">
+                        <button type="button" class="like-btn @(isLiked ? "liked" : "")" data-comment-id="@comment.Id" title="Bəyən">
                             <span class="heart">&#10084;</span>
                         </button>
-                        <small class="like-count">@comment.LikeCount</small>
-                    </p>
+                        <small class="like-count">@comment.LikesCount</small>
 
-                    <p>
-                        Qiymət:
-                        @for (int i = 0; i < comment.Rating; i++)
-                        {
-                            <span class="star-filled">&#9733;</span>
-                        }
-                        @for (int i = comment.Rating; i < 5; i++)
-                        {
-                            <span class="star-empty">&#9733;</span>
-                        }
-                    </p>
+                        <span class="comment-rating">
+                            Qiymət:
+                            @for (int i = 0; i < comment.Rating; i++)
+                            {
+                                <span class="star-filled">&#9733;</span>
+                            }
+                            @for (int i = comment.Rating; i < 5; i++)
+                            {
+                                <span class="star-empty">&#9733;</span>
+                            }
+                        </span>
+                    </div>
                 </div>
             }
         </div>
@@ -107,105 +121,142 @@
 
     <hr />
 
-    <div class="glass-container">
-        <h3>Rəy yaz və qiymətləndir</h3>
-        <form asp-action="AddComment" method="post">
-            <input type="hidden" name="mechanicId" value="@mechanic.Id" />
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div id="comments" class="glass-container">
+            <h3>Rəy yaz və qiymətləndir</h3>
+            <form autocomplete="off" asp-action="AddComment" method="post" id="comment-form">
+                <input type="hidden" name="mechanicId" value="@mechanic.Id" />
 
-            <div class="form-group">
-                <textarea name="text" rows="4" placeholder="Rəyinizi yazın..." required>@Model.NewCommentText</textarea>
-            </div>
+                <div class="form-group">
+                    <textarea name="text" rows="4" placeholder="Rəyinizi yazın..." required></textarea>
 
-            <div class="rating-group">
-                <label><input type="radio" name="rating" value="1" required>⭐</label>
-                <label><input type="radio" name="rating" value="2">⭐⭐</label>
-                <label><input type="radio" name="rating" value="3">⭐⭐⭐</label>
-                <label><input type="radio" name="rating" value="4">⭐⭐⭐⭐</label>
-                <label><input type="radio" name="rating" value="5">⭐⭐⭐⭐⭐</label>
-            </div>
+                </div>
 
-            <button type="submit">Göndər</button>
-        </form>
-    </div>
+                <div class="rating-group" aria-label="Qiymətləndirmə">
+                    <label><input type="radio" name="rating" value="1" required>⭐</label>
+                    <label><input type="radio" name="rating" value="2">⭐⭐</label>
+                    <label><input type="radio" name="rating" value="3">⭐⭐⭐</label>
+                    <label><input type="radio" name="rating" value="4">⭐⭐⭐⭐</label>
+                    <label><input type="radio" name="rating" value="5">⭐⭐⭐⭐⭐</label>
+                </div>
+
+                <button type="submit">Göndər</button>
+            </form>
+        </div>
+    }
+    else
+    {
+        <p>Rəy yazmaq üçün <a href="/Account/Login">daxil olmalısınız</a> və ya <a href="/Account/Register">qeydiyyatdan keçməlisiniz</a>.</p>
+    }
 </div>
 
 <style>
+    .back-button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-bottom: 25px;
+        background-color: #7a0000;
+        color: #fff;
+        border-radius: 8px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .back-button.a {
+   
+        color: #fff;
+ 
+    }
+
+        .back-button:hover {
+            background-color: #a32121;
+            transform: scale(1.05);
+        }
+
+        .back-button:active {
+            transform: scale(0.98);
+        }
+    /* Reset və ümumi tənzimləmələr */
+    * {
+        box-sizing: border-box;
+    }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #383737;
+    }
+
     .mechanic-detail {
         max-width: 900px;
         margin: 40px auto;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #340707;
-        padding: 10px 15px;
-        background: #cbcbcb; /* Tünd qırmızı fon */
-        border-radius: 15px;
-        box-shadow: 0 8px 32px rgba(54, 52, 52, 0.9);
-        border: none;
+        padding: 20px 30px;
     }
 
-        .mechanic-detail h1 {
-            font-size: 2.8rem;
-            margin-bottom: 3px;
-            font-weight: 700;
-            color: #550a0a; /* Açıq qırmızı */
-        }
+    h1 {
+        color: #550a0a;
+        font-weight: 700;
+        font-size: 2.8rem;
+        margin-bottom: 5px;
+    }
 
-        .mechanic-detail h3 {
-            font-weight: 500;
-            color: #340707;
-            
-            margin-bottom: 15px;
-        }
+    h3 {
+        color: #340707;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
 
     .mechanic-info {
         display: flex;
         gap: 40px;
         align-items: flex-start;
         justify-content: space-between;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
     .text-info {
         flex: 1;
         display: flex;
         flex-direction: column;
-        gap: 8px;
-        height:500px;
+        gap: 12px;
+        font-size: 1.1rem;
+        color: #550000;
     }
 
-        .text-info ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .text-info li {
-            margin: 3px 0;
-            line-height: 1.2;
-        }
-
         .text-info p {
-            margin: 2px 0;
-            padding: 0;
-            line-height: 1.2;
-            font-size: 1.1rem;
-            color: #383737;
+            margin: 0;
+            line-height: 1.4;
+            color: #550a0a;
+            line-height: 2.6;
         }
 
         .text-info strong {
-            color: #340707;
-            
+            color: #550000;
         }
+
+    .icon {
+        color: #550000;
+        margin-right: 8px;
+        width: 18px;
+        text-align: center;
+    }
 
     .image-container {
         flex-shrink: 0;
         max-width: 300px;
+        text-align: center;
     }
 
         .image-container img {
             width: 100%;
             border-radius: 15px;
-            box-shadow: 0 5px 20px rgba(240, 240, 240, 0.8);
             object-fit: cover;
+            height: 450px;
+            box-shadow: 0 5px 20px rgba(240, 240, 240, 0.8);
         }
 
     .social-links a {
@@ -217,7 +268,7 @@
         font-weight: 600;
         border-radius: 25px;
         text-decoration: none;
-        transition: background 0.3s ease, color 0.3s ease;
+        transition: background-color 0.3s, color 0.3s;
     }
 
         .social-links a:hover {
@@ -227,32 +278,34 @@
 
     .star-filled {
         color: rgb(255, 116, 30);
-        font-size: 20px;
+        font-size: 18px;
         vertical-align: middle;
     }
 
     .star-empty {
         color: #716767;
-        font-size: 20px;
+        font-size: 18px;
         vertical-align: middle;
     }
 
     .comments-section {
-        padding: 30px;
         max-height: 550px;
         overflow-y: auto;
+        padding: 20px;
         box-shadow: inset 0 0 10px rgba(53, 51, 51, 0.3);
         margin-bottom: 35px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
     }
 
     .comment-card {
         background: #312a2a;
+        color: #fff;
         border-radius: 12px;
         padding: 15px 20px;
         margin-bottom: 15px;
         box-shadow: 0 3px 12px rgba(16, 16, 16, 0.7);
         transition: transform 0.2s ease;
-        color: #fff;
     }
 
         .comment-card:hover {
@@ -276,84 +329,98 @@
 
         .comment-header strong {
             font-weight: 600;
-            color: #ffffff;
+            color: #fff;
         }
 
         .comment-header small {
             margin-left: auto;
-            color: #8f8f8f;
             font-size: 0.85rem;
+            color: #ccc;
         }
+
+    .comment-footer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
 
     .like-btn {
         background: transparent;
         border: none;
         cursor: pointer;
-        font-size: 18px;
-        transition: transform 0.2s ease;
+        font-size: 20px;
         color: gray;
+        transition: color 0.3s ease, transform 0.2s ease;
     }
 
         .like-btn:hover {
             transform: scale(1.3);
-            color: rgb(220, 7, 7);
+            color: darkred;
+        }
+
+        .like-btn.liked {
+            color: darkred;
         }
 
     .heart {
-        color: inherit;
-        transition: color 0.3s ease;
+        pointer-events: none;
     }
 
     .like-count {
-        margin-left: 8px;
-        font-size: 14px;
         color: #c42d2d;
-        vertical-align: middle;
+        font-size: 14px;
+        user-select: none;
+    }
+
+    .comment-rating {
+        margin-left: auto;
+        font-size: 16px;
+        user-select: none;
     }
 
     .glass-container {
-        padding: 25px 30px;
-        border-radius: 20px;
-        box-shadow: 0 8px 32px rgba(108, 107, 107, 0.9);
         max-width: 600px;
         margin: 0 auto 50px auto;
+        padding: 25px 30px;
+        border-radius: 20px;
+        background: rgba(255 255 255 / 0.8);
+        box-shadow: 0 8px 32px rgba(108, 107, 107, 0.3);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
     }
 
         .glass-container h3 {
+            text-align: center;
             margin-bottom: 25px;
             font-size: 1.8rem;
-            color: #4d1111;
-            text-align: center;
             font-weight: 700;
+            color: #4d1111;
         }
 
     .form-group textarea {
         width: 100%;
+        min-height: 100px;
         border-radius: 12px;
-        border: none;
-        resize: none;
-        padding: 12px 8px;
+        border: 1px solid #ccc;
+        padding: 12px 15px;
         font-size: 1.1rem;
+        resize: vertical;
         font-family: inherit;
-        box-shadow: 0 4px 12px rgba(103, 101, 101, 0.5);
-        background: #440000;
-        transition: box-shadow 0.3s ease;
+        transition: border-color 0.3s ease;
     }
-
-        .form-group textarea::placeholder {
-            color: #ffffff;
-        }
 
         .form-group textarea:focus {
             outline: none;
-            box-shadow: 0 0 15px #5f5f5f;
-            background: #580909;
-            color: #ffffff;
+            border-color: #901d1d;
+            box-shadow: 0 0 10px #901d1daa;
+            background: #fff;
+            color: #000;
         }
 
     .rating-group {
-        margin: 20px 0;
         text-align: center;
+        margin: 20px 0;
     }
 
         .rating-group label {
@@ -364,20 +431,24 @@
             transition: color 0.3s ease;
         }
 
-        .rating-group input[type="radio"]:checked + label {
-            color: rgb(174, 97, 25);
+        .rating-group input[type="radio"] {
+            display: none;
         }
 
+            .rating-group input[type="radio"]:checked + label {
+                color: #ae6119;
+            }
+
     .glass-container button[type="submit"] {
+        width: 100%;
         background: #550505;
         border: none;
-        padding: 12px 35px;
-        color: white;
+        padding: 12px 0;
+        border-radius: 25px;
+        color: #fff;
         font-weight: 600;
         font-size: 1.1rem;
-        border-radius: 25px;
         cursor: pointer;
-        width: 100%;
         transition: background 0.3s ease;
     }
 
@@ -385,73 +456,52 @@
             background: #901d1d;
         }
 
-
-
-    .image-container {
-        max-width: 100%;
-        text-align: center;
-    }
-
-        .image-container img {
-            max-width: 300px;
-            margin: 0 auto;
-        }
-
-    .star-filled {
-        color: rgb(255, 116, 30);
-        font-size: 14px;
-        vertical-align: middle;
-    }
-
-    .star-empty {
-        color: #716767;
-        font-size: 14px;
-        vertical-align: middle;
-    }
-
-    .star {
-        cursor: pointer;
-        transition: color 0.3s ease, transform 0.2s ease;
-        color: #777;
-        font-size: 14px;
-    }
-
-    .rating-group {
-        text-align: center;
-        font-size: 0.1rem;
-        color: #777;
-        user-select: none;
-    }
-
+    
 </style>
+
+
+
+
+
+
 
 @section Scripts {
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <script>
         $(document).ready(function () {
-            $('.like-btn').click(function () {
+            $(".like-btn").click(function () {
                 var button = $(this);
-                var commentId = button.data('comment-id');
+                var commentId = button.data("comment-id");
 
                 $.ajax({
                     type: "POST",
-                    url: '@Url.Action("LikeComment", "Mechanics")',
+                    url: "/Mechanic/LikeComment",
                     data: { commentId: commentId },
                     success: function (response) {
-                        button.next('.like-count').text(response.likeCount);
-
-                        var heart = button.find('.heart');
-                        if (heart.css('color') === 'rgb(255, 0, 0)') {
-                            heart.css('color', 'gray');
+                        if (response.success) {
+                            button.closest(".comment-card").find(".like-count").text(response.likeCount);
+                            if (response.liked) {
+                                button.addClass("liked");
+                            } else {
+                                button.removeClass("liked");
+                            }
                         } else {
-                            heart.css('color', 'red');
+                            alert(response.message);
                         }
                     },
                     error: function () {
-                        alert("Like əməliyyatında xəta baş verdi.");
+                        alert("Xəta baş verdi, zəhmət olmasa yenidən cəhd edin.");
                     }
                 });
             });
         });
+              window.addEventListener('beforeunload', function () {
+            const commentForm = document.querySelector('#comment-form');
+            if (commentForm) {
+                commentForm.reset(); // səhifədən çıxış zamanı formu təmizlə
+            }
+        });
+
     </script>
 }

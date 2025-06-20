@@ -10926,6 +10926,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\carousel-bg-2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\defuserprofil.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MercService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MercService</BasePath>
+      <RelativePath>assets/img/defuserprofil.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rinoe2hm58</Fingerprint>
+      <Integrity>7cwTrVr879K8WCGT33i8ev1To8pZfgPHYw893mwjTDw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\defuserprofil.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\map.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MercService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MercService</BasePath>
+      <RelativePath>assets/img/map.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mbdaq1g67p</Fingerprint>
+      <Integrity>DiCyt060ZLagnpVHrdaUE1GH1WwdLP7Y8Aa0xzRmhoM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\map.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\merc1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>MercService</SourceId>
@@ -14867,6 +14903,150 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\mechanic\fc881b70-dcd8-4994-9739-13cf4d0ab2dc-ust17.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\13faad74-3751-4cc5-a818-4cdd1886f8af.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MercService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MercService</BasePath>
+      <RelativePath>upload/profilimage/13faad74-3751-4cc5-a818-4cdd1886f8af.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qlgxjccq48</Fingerprint>
+      <Integrity>skr2vmYMl8D2UJGpUzCPC3ikmoTic8W3mASewa2Wp/Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\13faad74-3751-4cc5-a818-4cdd1886f8af.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\2d1b7438-e892-4543-b46b-5a20881ee466.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MercService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MercService</BasePath>
+      <RelativePath>upload/profilimage/2d1b7438-e892-4543-b46b-5a20881ee466.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tul0sw59x2</Fingerprint>
+      <Integrity>pRpHltDbfZZDK/eLtsK+/iHuT003Pc7lW2KGz9WKV0E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\2d1b7438-e892-4543-b46b-5a20881ee466.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\394f8ebe-fbc6-4a57-af0e-c89b25075750.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MercService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MercService</BasePath>
+      <RelativePath>upload/profilimage/394f8ebe-fbc6-4a57-af0e-c89b25075750.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4ydxwv8usa</Fingerprint>
+      <Integrity>3MC996sfHCBb5Moxh2lb9XZ9IPuDA1fTE1BmtNbhxwE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\394f8ebe-fbc6-4a57-af0e-c89b25075750.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\3e5bf2e5-3fa8-480d-86fb-fce1fc3a885b.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MercService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MercService</BasePath>
+      <RelativePath>upload/profilimage/3e5bf2e5-3fa8-480d-86fb-fce1fc3a885b.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ff9p0s0azw</Fingerprint>
+      <Integrity>+2v9S4ewpDs3uelQiXbDWt9uz72tnc98h+qVsEMU1ZM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\3e5bf2e5-3fa8-480d-86fb-fce1fc3a885b.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\7981c46b-76d1-42d4-a530-12ee10a6f3d3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MercService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MercService</BasePath>
+      <RelativePath>upload/profilimage/7981c46b-76d1-42d4-a530-12ee10a6f3d3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3lhp2y5ogb</Fingerprint>
+      <Integrity>uYDjJGgcv8jn15ktjXmBY0B9W747+BrmhtjoVQVeIIM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\7981c46b-76d1-42d4-a530-12ee10a6f3d3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\a5a1ad96-92ac-4a1d-b79b-f3087275998f.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MercService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MercService</BasePath>
+      <RelativePath>upload/profilimage/a5a1ad96-92ac-4a1d-b79b-f3087275998f.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>i4c3pro25e</Fingerprint>
+      <Integrity>ImXVXpc/BkBRVPQiXPhCWrV+ETBxLLpSIBZY7IImv8c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\a5a1ad96-92ac-4a1d-b79b-f3087275998f.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\ad1b82af-8046-4b13-891e-f5ff9f22e5a0.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MercService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MercService</BasePath>
+      <RelativePath>upload/profilimage/ad1b82af-8046-4b13-891e-f5ff9f22e5a0.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gf9g4hyvze</Fingerprint>
+      <Integrity>RCRkLcHgFavM9E94TTCNEWEKxocTrKyHPfGjpk9r6I4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\ad1b82af-8046-4b13-891e-f5ff9f22e5a0.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\d0fbb755-0f51-46a6-a53d-5389f87dd8ed.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MercService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MercService</BasePath>
+      <RelativePath>upload/profilimage/d0fbb755-0f51-46a6-a53d-5389f87dd8ed.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dlexat6hcd</Fingerprint>
+      <Integrity>37mmo4kGhgnz5RvhwvJBDYmu20BEMnBfZ8XL3O93Wfo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\profilimage\d0fbb755-0f51-46a6-a53d-5389f87dd8ed.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\~\upload\mechanic\2f1acc8a-46c2-41ff-b9fe-460fb6ec85d1-mismar.jpg'))">
       <SourceType>Package</SourceType>

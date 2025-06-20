@@ -1,0 +1,304 @@
+﻿@model MercService.Core.ViewModels.SiteInfoViewModel
+
+@{
+    ViewData["Title"] = "Admin Panel - Sayt Məlumatları";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<style>
+    .admin-section {
+        background: #f8f9fa;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+
+    .map-wrapper {
+        position: sticky;
+        top: 20px;
+    }
+
+    .section-title {
+        border-bottom: 2px solid #dee2e6;
+        padding-bottom: 8px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+</style>
+
+<div class="container-fluid">
+    <h1 class="text-center my-4">Admin Panel - Sayt Məlumatları</h1>
+    <div class="row">
+        <!-- Left Column -->
+        <div class="col-lg-8">
+
+            <!-- Əlaqə Məlumatı -->
+           @*  <div class="admin-section">
+                <h4 class="section-title">📞 Əlaqə Məlumatı</h4>
+                <form asp-action="AddContact" method="post" class="row g-3">
+                    @Html.AntiForgeryToken()
+                    <div class="col-12">
+                        <label asp-for="NewContact.Phone" class="form-label"></label>
+                        <input asp-for="NewContact.Phone" type="tel" class="form-control" placeholder="+994 50 123 45 67" />
+                        <span asp-validation-for="NewContact.Phone" class="text-danger"></span>
+                    </div>
+                    <div class="col-12 d-grid">
+                        <button type="submit" class="btn btn-success">Əlavə Et</button>
+                    </div>
+                </form>
+
+
+
+                <h4 class="section-title">✏️ Mövcud Əlaqə Məlumatını Yenilə</h4>
+                @if (Model.ContactInfo != null)
+                {
+                    <form asp-action="UpdateContact" method="post" class="row g-3">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="ContactInfo.Id" />
+                        <div class="col-12">
+                            <label asp-for="ContactInfo.Phone" class="form-label"></label>
+                            <input asp-for="ContactInfo.Phone" type="tel" class="form-control" />
+                            <span asp-validation-for="ContactInfo.Phone" class="text-danger"></span>
+                        </div>
+                        <div class="col-12 d-grid">
+                            <button type="submit" class="btn btn-primary">Yenilə</button>
+                        </div>
+                    </form>
+
+                    <table class="table table-bordered mt-4">
+                        <thead>
+                            <tr><th>Telefon Nömrəsi</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>@Model.ContactInfo.Phone</td></tr>
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <p>Mövcud əlaqə məlumatı tapılmadı.</p>
+                }
+            </div> *@
+
+    
+
+            <!-- Lokasiyalar -->
+            <div class="admin-section">
+                <h4 class="section-title">📍 Lokasiyalar</h4>
+
+                <!-- Yeni Lokasiya Əlavə Et -->
+                <form asp-action="AddLocation" method="post" class="row g-2 align-items-end mb-4" id="addLocationForm">
+                    <div class="col-md-6">
+                        <input id="locationName" name="Name" type="text" placeholder="Mekan adı yazın..." class="form-control" autocomplete="off" required />
+                    </div>
+                    <div class="col-md-6">
+                        <input id="address" name="Address" type="text" placeholder="Ünvan avtomatik" class="form-control" readonly />
+                    </div>
+                    <input id="latitude" name="Latitude" type="hidden" required />
+                    <input id="longitude" name="Longitude" type="hidden" required />
+                    <div class="col-md-12 text-end mt-2">
+                        <button type="submit" class="btn btn-primary">Əlavə Et</button>
+                    </div>
+                </form>
+
+                <!-- Lokasiya Cədvəli -->
+                <table class="table table-bordered table-striped">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Ad</th>
+                            <th>Ünvan</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                            <th>Əməliyyatlar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var loc in Model.Locations)
+                        {
+                            <tr>
+                                <td>@loc.Name</td>
+                                <td>@loc.Address</td>
+                                <td>@loc.Latitude.ToString(System.Globalization.CultureInfo.InvariantCulture)</td>
+                                <td>@loc.Longitude.ToString(System.Globalization.CultureInfo.InvariantCulture)</td>
+                                <td>
+                                    <form asp-action="DeleteLocation" method="post" onsubmit="return confirm('Silinsin?');">
+                                        <input type="hidden" name="id" value="@loc.Id" />
+                                        <button type="submit" class="btn btn-sm btn-danger">Sil</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+
+            <!-- Sosial Şəbəkələr -->
+            <div class="admin-section">
+                <h4 class="section-title">🌐 Sosial Linklər</h4>
+                <table class="table table-bordered table-striped">
+                <h6>➕ Yeni Sosial Link Əlavə Et</h6>
+                    <form asp-action="AddSocialLink" method="post" class="row g-2 align-items-end mb-4">
+                        <div class="col-md-4">
+                            <select name="Platform" class="form-select" required>
+                                <option value="" disabled selected>Platform seçin...</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Instagram">Instagram</option>
+                                <option value="Twitter">Twitter</option>
+                                <option value="WhatsApp">WhatsApp</option>
+                                <option value="LinkedIn">LinkedIn</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="url" name="Url" placeholder="URL" class="form-control" required />
+                        </div>
+                        <div class="col-md-2">
+                            <button type="submit" class="btn btn-primary w-100">Əlavə Et</button>
+                        </div>
+                    </form>
+
+                    <form asp-action="UpdateSocialLink" method="post" class="mb-3">
+                        <table class="table table-bordered table-striped">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Platforma</th>
+                                    <th>URL</th>
+                                    <th>Əməliyyatlar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var social in Model.SocialLinks)
+                                {
+                                    <tr>
+                                        <td>
+                                            <input type="hidden" name="Id" value="@social.Id" />
+                                            <select name="Platform" class="form-select form-select-sm" required>
+                                                <option value="Facebook" selected="@("Facebook".Equals(social.Platform, StringComparison.OrdinalIgnoreCase))">Facebook</option>
+                                                <option value="Instagram" selected="@("Instagram".Equals(social.Platform, StringComparison.OrdinalIgnoreCase))">Instagram</option>
+                                                <option value="Twitter" selected="@("Twitter".Equals(social.Platform, StringComparison.OrdinalIgnoreCase))">Twitter</option>
+                                                <option value="WhatsApp" selected="@("Whatsapp".Equals(social.Platform, StringComparison.OrdinalIgnoreCase) || "WhatsApp".Equals(social.Platform, StringComparison.OrdinalIgnoreCase))">Whatsapp</option>
+                                                <option value="LinkedIn" selected="@("LinkedIn".Equals(social.Platform, StringComparison.OrdinalIgnoreCase))">LinkedIn</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <input type="url" name="Url" value="@social.Url" class="form-control form-control-sm" required />
+                                        </td>
+                                        <td class="d-flex gap-2">
+                                           
+
+                                            <form asp-action="DeleteSocialLink" method="post" onsubmit="return confirm('Silinsin?');" class="d-inline">
+                                                <input type="hidden" name="id" value="@social.Id" />
+                                                <button type="submit" class="btn btn-sm btn-danger">Sil</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </form>
+
+
+            </div>
+
+        </div>
+
+        <!-- Right Column (Map) -->
+        <div class="col-lg-4">
+            <div class="admin-section map-wrapper">
+                <h4 class="section-title">🗺️ Xəritə</h4>
+                <div id="map" style="width: 100%; height: 400px; border-radius: 8px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        let map;
+        let addedMarker;
+
+        function initMap() {
+            const locations = [
+        @foreach (var loc in Model.Locations)
+        {
+            <text>{ lat: @loc.Latitude.ToString(System.Globalization.CultureInfo.InvariantCulture), lng: @loc.Longitude.ToString(System.Globalization.CultureInfo.InvariantCulture), title: "@loc.Name" },</text>
+        }
+            ];
+
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: locations.length > 0 ? locations[0] : { lat: 40.4093, lng: 49.8671 }, // Bakı koordinatları
+                zoom: 11
+            });
+
+            // Mövcud location markerlərini göstər
+            locations.forEach(loc => {
+                new google.maps.Marker({
+                    position: { lat: loc.lat, lng: loc.lng },
+                    map: map,
+                    title: loc.title
+                });
+            });
+
+            initAutocomplete(); // Autocomplete başlat
+        }
+
+        function initAutocomplete() {
+            const input = document.getElementById('locationName');
+            const autocomplete = new google.maps.places.Autocomplete(input);
+
+            autocomplete.addListener('place_changed', function () {
+                const place = autocomplete.getPlace();
+                if (!place.geometry || !place.geometry.location) {
+                    alert("Seçdiyiniz yerin koordinatları tapılmadı.");
+                    return;
+                }
+
+                const lat = place.geometry.location.lat();
+                const lng = place.geometry.location.lng();
+
+                // Form sahələrinə yaz
+                document.getElementById('address').value = place.formatted_address || place.name;
+                document.getElementById('latitude').value = lat;
+                document.getElementById('longitude').value = lng;
+
+                // Əvvəlki marker silinsin
+                if (addedMarker) {
+                    addedMarker.setMap(null);
+                }
+
+                // Yeni marker əlavə et
+                addedMarker = new google.maps.Marker({
+                    position: { lat: lat, lng: lng },
+                    map: map
+                });
+
+                // Xəritəni həmin yerə sür
+                map.panTo({ lat: lat, lng: lng });
+                map.setZoom(14);
+            });
+        }
+
+        // Form submit zamanı lat/lng yoxlanışı
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById('addLocationForm');
+            if (form) {
+                form.addEventListener('submit', function (e) {
+                    const lat = document.getElementById('latitude').value;
+                    const lng = document.getElementById('longitude').value;
+                    if (!lat || !lng) {
+                        e.preventDefault();
+                        alert("Zəhmət olmasa xəritədən bir məkan seçin.");
+                    }
+                });
+            }
+        });
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv6HvDCwWZBAgtFfhzNRU9kj7Ax7A7Hlc&libraries=places&callback=initMap&loading=async" async defer></script>
+
+
+    <partial name="_ValidationScriptsPartial" />
+}

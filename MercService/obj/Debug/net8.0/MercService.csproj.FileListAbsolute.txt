@@ -278,10 +278,11 @@ C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MercService.props
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MercService.props
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\MercServ.B5C3D598.Up2Date
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\MercService.dll
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\refint\MercService.dll
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\MercService.pdb
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\MercService.genruntimeconfig.cache
 C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\ref\MercService.dll
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\MercService.sourcelink.json
+C:\Users\דניז גוסיינוב\source\repos\MercServiceSloution\MercService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

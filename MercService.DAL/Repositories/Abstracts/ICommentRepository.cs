@@ -14,7 +14,14 @@ namespace MercService.DAL.Repositories.Abstracts
         Task<List<UserComments>> GetCommentsByMechanicIdAsync(int mechanicId);
         Task<int> GetLikeCountAsync(int commentId);
         Task<bool> UserHasLikedAsync(int commentId, string userId);
-        Task ToggleLikeAsync(int commentId, string userId);
+
+        Task<bool> ToggleLikeAsync(int commentId, string userId);  // ToggleLike burda olmalıdır
+
+        Task AddLikeAsync(int commentId, string userId);
+        Task RemoveLikeAsync(int commentId, string userId);
+
+        Task<List<UserComments>> GetCommentsWithUserByMechanicIdAsync(int mechanicId);
+
 
     }
 

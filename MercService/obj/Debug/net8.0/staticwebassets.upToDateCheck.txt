@@ -606,6 +606,8 @@ wwwroot\assets\img\carousel-1.png
 wwwroot\assets\img\carousel-2.png
 wwwroot\assets\img\carousel-bg-1.jpg
 wwwroot\assets\img\carousel-bg-2.jpg
+wwwroot\assets\img\defuserprofil.png
+wwwroot\assets\img\map.png
 wwwroot\assets\img\merc1.jpg
 wwwroot\assets\img\merc2.jpg
 wwwroot\assets\img\service-1.jpg
@@ -824,3 +826,11 @@ wwwroot\upload\mechanic\e96c8860-cfca-4075-ae9e-b101484caaca-ust16.jpg
 wwwroot\upload\mechanic\f4dfa5ba-6220-4b72-86af-cdaba22a5414-ust5.jpg
 wwwroot\upload\mechanic\f76bcfa1-40b9-4417-a867-d4b04db86e7c-ust21.jpg
 wwwroot\upload\mechanic\fc881b70-dcd8-4994-9739-13cf4d0ab2dc-ust17.jpg
+wwwroot\upload\profilimage\13faad74-3751-4cc5-a818-4cdd1886f8af.jpg
+wwwroot\upload\profilimage\2d1b7438-e892-4543-b46b-5a20881ee466.jpg
+wwwroot\upload\profilimage\394f8ebe-fbc6-4a57-af0e-c89b25075750.jpg
+wwwroot\upload\profilimage\3e5bf2e5-3fa8-480d-86fb-fce1fc3a885b.jpg
+wwwroot\upload\profilimage\7981c46b-76d1-42d4-a530-12ee10a6f3d3.jpg
+wwwroot\upload\profilimage\a5a1ad96-92ac-4a1d-b79b-f3087275998f.jpg
+wwwroot\upload\profilimage\ad1b82af-8046-4b13-891e-f5ff9f22e5a0.jpg
+wwwroot\upload\profilimage\d0fbb755-0f51-46a6-a53d-5389f87dd8ed.jpg

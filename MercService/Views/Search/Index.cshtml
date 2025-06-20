@@ -46,7 +46,6 @@
 
     <button type="submit" class="btn btn-primary mt-2">Axtar</button>
 </form>
-
 @if (Model.Mechanics != null && Model.Mechanics.Any())
 {
     <h3>Bu problemi həll edən ustalar:</h3>
@@ -64,7 +63,9 @@
     <ul>
         @foreach (var comment in Model.Comments)
         {
-            <li>@comment.Text (@comment.CreatedAt.ToShortDateString())</li>
+            <li>
+                @comment.Text (@(comment.CreatedAt.HasValue ? comment.CreatedAt.Value.ToShortDateString() : "Tarix yoxdur"))
+            </li>
         }
     </ul>
 }

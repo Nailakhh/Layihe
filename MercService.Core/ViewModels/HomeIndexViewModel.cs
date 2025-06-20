@@ -16,5 +16,17 @@ namespace MercService.Core.ViewModels
         public List<CarProblem> Problems { get; set; }
         public List<SelectListItem> Years { get; set; }
         public List<Mechanic> Mechanics { get; set; }
+        public List<string> MastersList { get; set; }
+        public List<MechanicVM> ChatMechanics { get; set; }
+       
+        public Location Location { get; set; }
+        public ContactInfo ContactInfo { get; set; }
+        public List<SocialLink> SocialLinks { get; set; }
+
+        public List<Location> Locations { get; set; }
+        public List<ClientReview> ClientReviews { get; set; } = new List<ClientReview>();
+        public string LoggedInUserName { get; set; } = "";
+        public string LoggedInUserAvatar { get; set; } = "";
+
     }
 }
